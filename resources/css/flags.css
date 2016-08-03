@@ -1,0 +1,232 @@
+.sFlag{background-position: 0 0; background-image: url("/OIS/global/images/portal/flags/all_sflags.png"); border: solid 1px #9ab;}
+.lFlag{background-position: 0 0;	background-image: url("/OIS/global/images/portal/flags/all_lflags.png");border: solid 1px #9ab;}
+.mFlag{background-position: 0 0;	background-image: url("/OIS/global/images/portal/flags/all_mflags.png");border: solid 1px #9ab;}
+.nonoc{border:none!important;margin-left:2px;}
+.infoFlag .mFlag{margin-right:4px;}
+
+img[src$="XXX"], .sFlag.XXX{background-position: 0 0;}			.flag img[src$="XXX"], .lFlag.XXX{background-position: 0 0;}				.mFlag.XXX{background-position:    0   0;}
+img[src$="AFG"], .sFlag.AFG{background-position: -24px 0;}		.flag img[src$="AFG"], .lFlag.AFG{background-position: -90px 0;}            .mFlag.AFG{background-position:  -45px 0;}
+img[src$="AHO"], .sFlag.AHO{background-position: -48px 0;}		.flag img[src$="AHO"], .lFlag.AHO{background-position: -180px 0;}           .mFlag.AHO{background-position:  -90px 0;}
+img[src$="ALB"], .sFlag.ALB{background-position: -72px 0;}		.flag img[src$="ALB"], .lFlag.ALB{background-position: -270px 0;}           .mFlag.ALB{background-position: -135px 0;}
+img[src$="ALG"], .sFlag.ALG{background-position: -96px 0;}		.flag img[src$="ALG"], .lFlag.ALG{background-position: -360px 0;}           .mFlag.ALG{background-position: -180px 0;}
+img[src$="AND"], .sFlag.AND{background-position: -120px 0;}		.flag img[src$="AND"], .lFlag.AND{background-position: -450px 0;}           .mFlag.AND{background-position: -225px 0;}
+img[src$="ANG"], .sFlag.ANG{background-position: -144px 0;}		.flag img[src$="ANG"], .lFlag.ANG{background-position: -540px 0;}           .mFlag.ANG{background-position: -270px 0;}
+img[src$="ANT"], .sFlag.ANT{background-position: -168px 0;}		.flag img[src$="ANT"], .lFlag.ANT{background-position: -630px 0;}           .mFlag.ANT{background-position: -315px 0;}
+img[src$="ARG"], .sFlag.ARG{background-position: -192px 0;}		.flag img[src$="ARG"], .lFlag.ARG{background-position: -720px 0;}           .mFlag.ARG{background-position: -360px 0;}
+img[src$="ARM"], .sFlag.ARM{background-position: -216px 0;}		.flag img[src$="ARM"], .lFlag.ARM{background-position: -810px 0;}           .mFlag.ARM{background-position: -405px 0;}
+img[src$="ARU"], .sFlag.ARU{background-position: -240px 0;}		.flag img[src$="ARU"], .lFlag.ARU{background-position: -900px 0;}           .mFlag.ARU{background-position: -450px 0;}
+img[src$="ASA"], .sFlag.ASA{background-position: -264px 0;}		.flag img[src$="ASA"], .lFlag.ASA{background-position: -990px 0;}           .mFlag.ASA{background-position: -495px 0;}
+img[src$="AUS"], .sFlag.AUS{background-position: -288px 0;}		.flag img[src$="AUS"], .lFlag.AUS{background-position: -1080px 0;}          .mFlag.AUS{background-position: -540px 0;}
+img[src$="AUT"], .sFlag.AUT{background-position: -312px 0;}		.flag img[src$="AUT"], .lFlag.AUT{background-position: -1170px 0;}          .mFlag.AUT{background-position: -585px 0;}
+img[src$="AZE"], .sFlag.AZE{background-position: -336px 0;}		.flag img[src$="AZE"], .lFlag.AZE{background-position: -1260px 0;}          .mFlag.AZE{background-position: -635px 0;}
+img[src$="BAH"], .sFlag.BAH{background-position: 0 -17px;}		.flag img[src$="BAH"], .lFlag.BAH{background-position: 0 -60px;}            .mFlag.BAH{background-position:    0   -30px;}
+img[src$="BAN"], .sFlag.BAN{background-position: -24px -17px;}	.flag img[src$="BAN"], .lFlag.BAN{background-position: -90px -60px;}        .mFlag.BAN{background-position:  -45px -30px;}
+img[src$="BAR"], .sFlag.BAR{background-position: -48px -17px;}	.flag img[src$="BAR"], .lFlag.BAR{background-position: -180px -60px;}       .mFlag.BAR{background-position:  -90px -30px;}
+img[src$="BDI"], .sFlag.BDI{background-position: -72px -17px;}	.flag img[src$="BDI"], .lFlag.BDI{background-position: -270px -60px;}       .mFlag.BDI{background-position: -135px -30px;}
+img[src$="BEL"], .sFlag.BEL{background-position: -96px -17px;}	.flag img[src$="BEL"], .lFlag.BEL{background-position: -360px -60px;}       .mFlag.BEL{background-position: -180px -30px;}
+img[src$="BEN"], .sFlag.BEN{background-position: -120px -17px;}	.flag img[src$="BEN"], .lFlag.BEN{background-position: -450px -60px;}       .mFlag.BEN{background-position: -225px -30px;}
+img[src$="BER"], .sFlag.BER{background-position: -144px -17px;}	.flag img[src$="BER"], .lFlag.BER{background-position: -540px -60px;}       .mFlag.BER{background-position: -270px -30px;}
+img[src$="BHU"], .sFlag.BHU{background-position: -168px -17px;}	.flag img[src$="BHU"], .lFlag.BHU{background-position: -630px -60px;}       .mFlag.BHU{background-position: -315px -30px;}
+img[src$="BIH"], .sFlag.BIH{background-position: -192px -17px;}	.flag img[src$="BIH"], .lFlag.BIH{background-position: -720px -60px;}       .mFlag.BIH{background-position: -360px -30px;}
+img[src$="BIZ"], .sFlag.BIZ{background-position: -216px -17px;}	.flag img[src$="BIZ"], .lFlag.BIZ{background-position: -810px -60px;}       .mFlag.BIZ{background-position: -405px -30px;}
+img[src$="BLR"], .sFlag.BLR{background-position: -240px -17px;}	.flag img[src$="BLR"], .lFlag.BLR{background-position: -900px -60px;}       .mFlag.BLR{background-position: -450px -30px;}
+img[src$="BOL"], .sFlag.BOL{background-position: -264px -17px;}	.flag img[src$="BOL"], .lFlag.BOL{background-position: -990px -60px;}       .mFlag.BOL{background-position: -495px -30px;}
+img[src$="BOT"], .sFlag.BOT{background-position: -288px -17px;}	.flag img[src$="BOT"], .lFlag.BOT{background-position: -1080px -60px;}      .mFlag.BOT{background-position: -540px -30px;}
+img[src$="BRA"], .sFlag.BRA{background-position: -312px -17px;}	.flag img[src$="BRA"], .lFlag.BRA{background-position: -1170px -60px;}      .mFlag.BRA{background-position: -585px -30px;}
+img[src$="BRN"], .sFlag.BRN{background-position: -336px -17px;}	.flag img[src$="BRN"], .lFlag.BRN{background-position: -1260px -60px;}      .mFlag.BRN{background-position: -635px -30px;}
+img[src$="BRU"], .sFlag.BRU{background-position: 0 -34px;}		.flag img[src$="BRU"], .lFlag.BRU{background-position: 0 -120px;}           .mFlag.BRU{background-position:    0   -60px;}
+img[src$="BUL"], .sFlag.BUL{background-position: -24px -34px;}	.flag img[src$="BUL"], .lFlag.BUL{background-position: -90px -120px;}       .mFlag.BUL{background-position:  -45px -60px;}
+img[src$="BUR"], .sFlag.BUR{background-position: -48px -34px;}	.flag img[src$="BUR"], .lFlag.BUR{background-position: -180px -120px;}      .mFlag.BUR{background-position:  -90px -60px;}
+img[src$="CAF"], .sFlag.CAF{background-position: -72px -34px;}	.flag img[src$="CAF"], .lFlag.CAF{background-position: -270px -120px;}      .mFlag.CAF{background-position: -135px -60px;}
+img[src$="CAM"], .sFlag.CAM{background-position: -96px -34px;}	.flag img[src$="CAM"], .lFlag.CAM{background-position: -360px -120px;}      .mFlag.CAM{background-position: -180px -60px;}
+img[src$="CAN"], .sFlag.CAN{background-position: -120px -34px;}	.flag img[src$="CAN"], .lFlag.CAN{background-position: -450px -120px;}      .mFlag.CAN{background-position: -225px -60px;}
+img[src$="CAY"], .sFlag.CAY{background-position: -144px -34px;}	.flag img[src$="CAY"], .lFlag.CAY{background-position: -540px -120px;}      .mFlag.CAY{background-position: -270px -60px;}
+img[src$="CGO"], .sFlag.CGO{background-position: -168px -34px;}	.flag img[src$="CGO"], .lFlag.CGO{background-position: -630px -120px;}      .mFlag.CGO{background-position: -315px -60px;}
+img[src$="CHA"], .sFlag.CHA{background-position: -192px -34px;}	.flag img[src$="CHA"], .lFlag.CHA{background-position: -720px -120px;}      .mFlag.CHA{background-position: -360px -60px;}
+img[src$="CHI"], .sFlag.CHI{background-position: -216px -34px;}	.flag img[src$="CHI"], .lFlag.CHI{background-position: -810px -120px;}      .mFlag.CHI{background-position: -405px -60px;}
+img[src$="CHN"], .sFlag.CHN{background-position: -240px -34px;}	.flag img[src$="CHN"], .lFlag.CHN{background-position: -900px -120px;}      .mFlag.CHN{background-position: -450px -60px;}
+img[src$="CIV"], .sFlag.CIV{background-position: -264px -34px;}	.flag img[src$="CIV"], .lFlag.CIV{background-position: -990px -120px;}      .mFlag.CIV{background-position: -495px -60px;}
+img[src$="CMR"], .sFlag.CMR{background-position: -288px -34px;}	.flag img[src$="CMR"], .lFlag.CMR{background-position: -1080px -120px;}     .mFlag.CMR{background-position: -540px -60px;}
+img[src$="COD"], .sFlag.COD{background-position: -312px -34px;}	.flag img[src$="COD"], .lFlag.COD{background-position: -1170px -120px;}     .mFlag.COD{background-position: -585px -60px;}
+img[src$="COK"], .sFlag.COK{background-position: -336px -34px;}	.flag img[src$="COK"], .lFlag.COK{background-position: -1260px -120px;}     .mFlag.COK{background-position: -635px -60px;}
+img[src$="COL"], .sFlag.COL{background-position: 0 -51px;}		.flag img[src$="COL"], .lFlag.COL{background-position: 0 -180px;}           .mFlag.COL{background-position:    0   -90px;}
+img[src$="COM"], .sFlag.COM{background-position: -24px -51px;}	.flag img[src$="COM"], .lFlag.COM{background-position: -90px -180px;}       .mFlag.COM{background-position:  -45px -90px;}
+img[src$="CPV"], .sFlag.CPV{background-position: -48px -51px;}	.flag img[src$="CPV"], .lFlag.CPV{background-position: -180px -180px;}      .mFlag.CPV{background-position:  -90px -90px;}
+img[src$="CRC"], .sFlag.CRC{background-position: -72px -51px;}	.flag img[src$="CRC"], .lFlag.CRC{background-position: -270px -180px;}      .mFlag.CRC{background-position: -135px -90px;}
+img[src$="CRO"], .sFlag.CRO{background-position: -96px -51px;}	.flag img[src$="CRO"], .lFlag.CRO{background-position: -360px -180px;}      .mFlag.CRO{background-position: -180px -90px;}
+img[src$="CUB"], .sFlag.CUB{background-position: -120px -51px;}	.flag img[src$="CUB"], .lFlag.CUB{background-position: -450px -180px;}      .mFlag.CUB{background-position: -225px -90px;}
+img[src$="CYP"], .sFlag.CYP{background-position: -144px -51px;}	.flag img[src$="CYP"], .lFlag.CYP{background-position: -540px -180px;}      .mFlag.CYP{background-position: -270px -90px;}
+img[src$="CZE"], .sFlag.CZE{background-position: -168px -51px;}	.flag img[src$="CZE"], .lFlag.CZE{background-position: -630px -180px;}      .mFlag.CZE{background-position: -315px -90px;}
+img[src$="DEN"], .sFlag.DEN{background-position: -192px -51px;}	.flag img[src$="DEN"], .lFlag.DEN{background-position: -720px -180px;}      .mFlag.DEN{background-position: -360px -90px;}
+img[src$="DJI"], .sFlag.DJI{background-position: -216px -51px;}	.flag img[src$="DJI"], .lFlag.DJI{background-position: -810px -180px;}      .mFlag.DJI{background-position: -405px -90px;}
+img[src$="DMA"], .sFlag.DMA{background-position: -240px -51px;}	.flag img[src$="DMA"], .lFlag.DMA{background-position: -900px -180px;}      .mFlag.DMA{background-position: -450px -90px;}
+img[src$="DOM"], .sFlag.DOM{background-position: -264px -51px;}	.flag img[src$="DOM"], .lFlag.DOM{background-position: -990px -180px;}      .mFlag.DOM{background-position: -495px -90px;}
+img[src$="ECU"], .sFlag.ECU{background-position: -288px -51px;}	.flag img[src$="ECU"], .lFlag.ECU{background-position: -1080px -180px;}     .mFlag.ECU{background-position: -540px -90px;}
+img[src$="EGY"], .sFlag.EGY{background-position: -312px -51px;}	.flag img[src$="EGY"], .lFlag.EGY{background-position: -1170px -180px;}     .mFlag.EGY{background-position: -585px -90px;}
+img[src$="ENG"], .sFlag.ENG{background-position: -336px -51px;}	.flag img[src$="ENG"], .lFlag.ENG{background-position: -1260px -180px;}     .mFlag.ENG{background-position: -635px -90px;}
+img[src$="ERI"], .sFlag.ERI{background-position: 0 -68px;}		.flag img[src$="ERI"], .lFlag.ERI{background-position: 0 -240px;}           .mFlag.ERI{background-position:    0   -120px;}
+img[src$="ESA"], .sFlag.ESA{background-position: -24px -68px;}	.flag img[src$="ESA"], .lFlag.ESA{background-position: -90px -240px;}       .mFlag.ESA{background-position: -45px  -120px;}
+img[src$="ESP"], .sFlag.ESP{background-position: -48px -68px;}	.flag img[src$="ESP"], .lFlag.ESP{background-position: -180px -240px;}      .mFlag.ESP{background-position: -90px  -120px;}
+img[src$="EST"], .sFlag.EST{background-position: -72px -68px;}	.flag img[src$="EST"], .lFlag.EST{background-position: -270px -240px;}      .mFlag.EST{background-position: -135px -120px;}
+img[src$="ETH"], .sFlag.ETH{background-position: -96px -68px;}	.flag img[src$="ETH"], .lFlag.ETH{background-position: -360px -240px;}      .mFlag.ETH{background-position: -180px -120px;}
+img[src$="FIJ"], .sFlag.FIJ{background-position: -120px -68px;}	.flag img[src$="FIJ"], .lFlag.FIJ{background-position: -450px -240px;}      .mFlag.FIJ{background-position: -225px -120px;}
+img[src$="FIN"], .sFlag.FIN{background-position: -144px -68px;}	.flag img[src$="FIN"], .lFlag.FIN{background-position: -540px -240px;}      .mFlag.FIN{background-position: -270px -120px;}
+img[src$="FOR"], .sFlag.FOR{background-position: -168px -68px;}	.flag img[src$="FOR"], .lFlag.FOR{background-position: -630px -240px;}      .mFlag.FOR{background-position: -315px -120px;}
+img[src$="FRA"], .sFlag.FRA{background-position: -192px -68px;}	.flag img[src$="FRA"], .lFlag.FRA{background-position: -720px -240px;}      .mFlag.FRA{background-position: -360px -120px;}
+img[src$="FRO"], .sFlag.FRO{background-position: -216px -68px;}	.flag img[src$="FRO"], .lFlag.FRO{background-position: -810px -240px;}      .mFlag.FRO{background-position: -405px -120px;}
+img[src$="FSM"], .sFlag.FSM{background-position: -240px -68px;}	.flag img[src$="FSM"], .lFlag.FSM{background-position: -900px -240px;}      .mFlag.FSM{background-position: -450px -120px;}
+img[src$="GAB"], .sFlag.GAB{background-position: -264px -68px;}	.flag img[src$="GAB"], .lFlag.GAB{background-position: -990px -240px;}      .mFlag.GAB{background-position: -495px -120px;}
+img[src$="GAM"], .sFlag.GAM{background-position: -288px -68px;}	.flag img[src$="GAM"], .lFlag.GAM{background-position: -1080px -240px;}     .mFlag.GAM{background-position: -540px -120px;}
+img[src$="GBR"], .sFlag.GBR{background-position: -312px -68px;}	.flag img[src$="GBR"], .lFlag.GBR{background-position: -1170px -240px;}     .mFlag.GBR{background-position: -585px -120px;}
+img[src$="GBS"], .sFlag.GBS{background-position: -336px -68px;}	.flag img[src$="GBS"], .lFlag.GBS{background-position: -1260px -240px;}     .mFlag.GBS{background-position: -635px -120px;}
+img[src$="GDR"], .sFlag.GDR{background-position: 0 -85px;}		.flag img[src$="GDR"], .lFlag.GDR{background-position: 0 -300px;}           .mFlag.GDR{background-position:    0   -150px;}
+img[src$="GEO"], .sFlag.GEO{background-position: -24px -85px;}	.flag img[src$="GEO"], .lFlag.GEO{background-position: -90px -300px;}       .mFlag.GEO{background-position:  -45px -150px;}
+img[src$="GEQ"], .sFlag.GEQ{background-position: -48px -85px;}	.flag img[src$="GEQ"], .lFlag.GEQ{background-position: -180px -300px;}      .mFlag.GEQ{background-position:  -90px -150px;}
+img[src$="GER"], .sFlag.GER{background-position: -72px -85px;}	.flag img[src$="GER"], .lFlag.GER{background-position: -270px -300px;}      .mFlag.GER{background-position: -135px -150px;}
+img[src$="GHA"], .sFlag.GHA{background-position: -96px -85px;}	.flag img[src$="GHA"], .lFlag.GHA{background-position: -360px -300px;}      .mFlag.GHA{background-position: -180px -150px;}
+img[src$="GRE"], .sFlag.GRE{background-position: -120px -85px;}	.flag img[src$="GRE"], .lFlag.GRE{background-position: -450px -300px;}      .mFlag.GRE{background-position: -225px -150px;}
+img[src$="GRN"], .sFlag.GRN{background-position: -144px -85px;}	.flag img[src$="GRN"], .lFlag.GRN{background-position: -540px -300px;}      .mFlag.GRN{background-position: -270px -150px;}
+img[src$="GUA"], .sFlag.GUA{background-position: -168px -85px;}	.flag img[src$="GUA"], .lFlag.GUA{background-position: -630px -300px;}      .mFlag.GUA{background-position: -315px -150px;}
+img[src$="GUI"], .sFlag.GUI{background-position: -192px -85px;}	.flag img[src$="GUI"], .lFlag.GUI{background-position: -720px -300px;}      .mFlag.GUI{background-position: -360px -150px;}
+img[src$="GUM"], .sFlag.GUM{background-position: -216px -85px;}	.flag img[src$="GUM"], .lFlag.GUM{background-position: -810px -300px;}      .mFlag.GUM{background-position: -405px -150px;}
+img[src$="GUY"], .sFlag.GUY{background-position: -240px -85px;}	.flag img[src$="GUY"], .lFlag.GUY{background-position: -900px -300px;}      .mFlag.GUY{background-position: -450px -150px;}
+img[src$="HAI"], .sFlag.HAI{background-position: -264px -85px;}	.flag img[src$="HAI"], .lFlag.HAI{background-position: -990px -300px;}      .mFlag.HAI{background-position: -495px -150px;}
+img[src$="HKG"], .sFlag.HKG{background-position: -288px -85px;}	.flag img[src$="HKG"], .lFlag.HKG{background-position: -1080px -300px;}     .mFlag.HKG{background-position: -540px -150px;}
+img[src$="HON"], .sFlag.HON{background-position: -312px -85px;}	.flag img[src$="HON"], .lFlag.HON{background-position: -1170px -300px;}     .mFlag.HON{background-position: -585px -150px;}
+img[src$="HUN"], .sFlag.HUN{background-position: -336px -85px;}	.flag img[src$="HUN"], .lFlag.HUN{background-position: -1260px -300px;}     .mFlag.HUN{background-position: -635px -150px;}
+img[src$="INA"], .sFlag.INA{background-position: 0 -102px;}		.flag img[src$="INA"], .lFlag.INA{background-position: 0 -360px;}           .mFlag.INA{background-position:    0   -180px;}
+img[src$="IND"], .sFlag.IND{background-position: -24px -102px;}	.flag img[src$="IND"], .lFlag.IND{background-position: -90px -360px;}       .mFlag.IND{background-position:  -45px -180px;}
+
+
+img[src*="IOA"], .sFlag.IOA{background-position: -48px -102px;}	.flag img[src*="IOA"], .lFlag.IOA{background-position: -180px -360px;}		.mFlag.IOA{background-position:  -90px -180px;}
+img[src*="IOP"], .sFlag.IOP{background-position: -48px -102px;}	.flag img[src*="IOP"], .lFlag.IOP{background-position: -180px -360px;}		.mFlag.IOP{background-position:  -90px -180px;}
+img[src*="ROA"], .sFlag.ROT{background-position: -48px -102px;}	.flag img[src*="ROA"], .lFlag.ROT{background-position: -180px -360px;}		.mFlag.ROT{background-position:  -90px -180px;}
+
+img[src*="IPA"], .sFlag.IPA{background-position: -48px -102px;}	.flag img[src*="IPA"], .lFlag.IPA{background-position: -180px -360px;}		.mFlag.IPA{background-position:  -90px -180px;}
+img[src*="IPP"], .sFlag.IPP{background-position: -48px -102px;}	.flag img[src*="IPP"], .lFlag.IPP{background-position: -180px -360px;}		.mFlag.IPP{background-position:  -90px -180px;}
+
+
+img[src$="IOA"], .sFlag.IOA{background-position: -48px -102px;}	.flag img[src$="IOA"], .lFlag.IOA{background-position: -180px -360px;}      .mFlag.IOA{background-position:  -90px -180px;}
+img[src$="IRI"], .sFlag.IRI{background-position: -72px -102px;}	.flag img[src$="IRI"], .lFlag.IRI{background-position: -270px -360px;}      .mFlag.IRI{background-position: -135px -180px;}
+img[src$="IRL"], .sFlag.IRL{background-position: -96px -102px;}	.flag img[src$="IRL"], .lFlag.IRL{background-position: -360px -360px;}      .mFlag.IRL{background-position: -180px -180px;}
+img[src$="IRQ"], .sFlag.IRQ{background-position: -120px -102px;}.flag img[src$="IRQ"], .lFlag.IRQ{background-position: -450px -360px;}      .mFlag.IRQ{background-position: -225px -180px;}
+img[src$="ISL"], .sFlag.ISL{background-position: -144px -102px;}.flag img[src$="ISL"], .lFlag.ISL{background-position: -540px -360px;}      .mFlag.ISL{background-position: -270px -180px;}
+img[src$="ISR"], .sFlag.ISR{background-position: -168px -102px;}.flag img[src$="ISR"], .lFlag.ISR{background-position: -630px -360px;}      .mFlag.ISR{background-position: -315px -180px;}
+img[src$="ISV"], .sFlag.ISV{background-position: -192px -102px;}.flag img[src$="ISV"], .lFlag.ISV{background-position: -720px -360px;}      .mFlag.ISV{background-position: -360px -180px;}
+img[src$="ITA"], .sFlag.ITA{background-position: -216px -102px;}.flag img[src$="ITA"], .lFlag.ITA{background-position: -810px -360px;}      .mFlag.ITA{background-position: -405px -180px;}
+img[src$="IVB"], .sFlag.IVB{background-position: -240px -102px;}.flag img[src$="IVB"], .lFlag.IVB{background-position: -900px -360px;}      .mFlag.IVB{background-position: -450px -180px;}
+img[src$="JAM"], .sFlag.JAM{background-position: -264px -102px;}.flag img[src$="JAM"], .lFlag.JAM{background-position: -990px -360px;}      .mFlag.JAM{background-position: -495px -180px;}
+img[src$="JOR"], .sFlag.JOR{background-position: -288px -102px;}.flag img[src$="JOR"], .lFlag.JOR{background-position: -1080px -360px;}     .mFlag.JOR{background-position: -540px -180px;}
+img[src$="JPN"], .sFlag.JPN{background-position: -312px -102px;}.flag img[src$="JPN"], .lFlag.JPN{background-position: -1170px -360px;}     .mFlag.JPN{background-position: -585px -180px;}
+img[src$="KAZ"], .sFlag.KAZ{background-position: -336px -102px;}.flag img[src$="KAZ"], .lFlag.KAZ{background-position: -1260px -360px;}     .mFlag.KAZ{background-position: -635px -180px;}
+img[src$="KEN"], .sFlag.KEN{background-position: 0 -119px;}		.flag img[src$="KEN"], .lFlag.KEN{background-position: 0 -420px;}           .mFlag.KEN{background-position:    0   -210px;}
+img[src$="KGZ"], .sFlag.KGZ{background-position: -24px -119px;}	.flag img[src$="KGZ"], .lFlag.KGZ{background-position: -90px -420px;}       .mFlag.KGZ{background-position:  -45px -210px;}
+img[src$="KIR"], .sFlag.KIR{background-position: -48px -119px;}	.flag img[src$="KIR"], .lFlag.KIR{background-position: -180px -420px;}      .mFlag.KIR{background-position:  -90px -210px;}
+img[src$="KOR"], .sFlag.KOR{background-position: -72px -119px;}	.flag img[src$="KOR"], .lFlag.KOR{background-position: -270px -420px;}      .mFlag.KOR{background-position: -135px -210px;}
+img[src$="KSA"], .sFlag.KSA{background-position: -96px -119px;}	.flag img[src$="KSA"], .lFlag.KSA{background-position: -360px -420px;}      .mFlag.KSA{background-position: -180px -210px;}
+img[src$="KUW"], .sFlag.KUW{background-position: -120px -119px;}.flag img[src$="KUW"], .lFlag.KUW{background-position: -450px -420px;}      .mFlag.KUW{background-position: -225px -210px;}
+img[src$="LAO"], .sFlag.LAO{background-position: -144px -119px;}.flag img[src$="LAO"], .lFlag.LAO{background-position: -540px -420px;}      .mFlag.LAO{background-position: -270px -210px;}
+img[src$="LAT"], .sFlag.LAT{background-position: -168px -119px;}.flag img[src$="LAT"], .lFlag.LAT{background-position: -630px -420px;}      .mFlag.LAT{background-position: -315px -210px;}
+img[src$="LBA"], .sFlag.LBA{background-position: -192px -119px;}.flag img[src$="LBA"], .lFlag.LBA{background-position: -720px -420px;}      .mFlag.LBA{background-position: -360px -210px;}
+img[src$="LBR"], .sFlag.LBR{background-position: -216px -119px;}.flag img[src$="LBR"], .lFlag.LBR{background-position: -810px -420px;}      .mFlag.LBR{background-position: -405px -210px;}
+img[src$="LCA"], .sFlag.LCA{background-position: -240px -119px;}.flag img[src$="LCA"], .lFlag.LCA{background-position: -900px -420px;}      .mFlag.LCA{background-position: -450px -210px;}
+img[src$="LES"], .sFlag.LES{background-position: -264px -119px;}.flag img[src$="LES"], .lFlag.LES{background-position: -990px -420px;}      .mFlag.LES{background-position: -495px -210px;}
+img[src$="LIB"], .sFlag.LIB{background-position: -288px -119px;}.flag img[src$="LIB"], .lFlag.LIB{background-position: -1080px -420px;}     .mFlag.LIB{background-position: -540px -210px;}
+img[src$="LIE"], .sFlag.LIE{background-position: -312px -119px;}.flag img[src$="LIE"], .lFlag.LIE{background-position: -1170px -420px;}     .mFlag.LIE{background-position: -585px -210px;}
+img[src$="LTU"], .sFlag.LTU{background-position: -336px -119px;}.flag img[src$="LTU"], .lFlag.LTU{background-position: -1260px -420px;}     .mFlag.LTU{background-position: -635px -210px;}
+img[src$="LUX"], .sFlag.LUX{background-position: 0 -136px;}		.flag img[src$="LUX"], .lFlag.LUX{background-position: 0 -480px;}           .mFlag.LUX{background-position:    0   -240px;}
+img[src$="MAC"], .sFlag.MAC{background-position: -24px -136px;}	.flag img[src$="MAC"], .lFlag.MAC{background-position: -90px -480px;}       .mFlag.MAC{background-position:  -45px -240px;}
+img[src$="MAD"], .sFlag.MAD{background-position: -48px -136px;}	.flag img[src$="MAD"], .lFlag.MAD{background-position: -180px -480px;}      .mFlag.MAD{background-position:  -90px -240px;}
+img[src$="MAR"], .sFlag.MAR{background-position: -72px -136px;}	.flag img[src$="MAR"], .lFlag.MAR{background-position: -270px -480px;}      .mFlag.MAR{background-position: -135px -240px;}
+img[src$="MAS"], .sFlag.MAS{background-position: -96px -136px;}	.flag img[src$="MAS"], .lFlag.MAS{background-position: -360px -480px;}      .mFlag.MAS{background-position: -180px -240px;}
+img[src$="MAW"], .sFlag.MAW{background-position: -120px -136px;}.flag img[src$="MAW"], .lFlag.MAW{background-position: -450px -480px;}      .mFlag.MAW{background-position: -225px -240px;}
+img[src$="MDA"], .sFlag.MDA{background-position: -144px -136px;}.flag img[src$="MDA"], .lFlag.MDA{background-position: -540px -480px;}      .mFlag.MDA{background-position: -270px -240px;}
+img[src$="MDV"], .sFlag.MDV{background-position: -168px -136px;}.flag img[src$="MDV"], .lFlag.MDV{background-position: -630px -480px;}      .mFlag.MDV{background-position: -315px -240px;}
+img[src$="MEX"], .sFlag.MEX{background-position: -192px -136px;}.flag img[src$="MEX"], .lFlag.MEX{background-position: -720px -480px;}      .mFlag.MEX{background-position: -360px -240px;}
+img[src$="MGL"], .sFlag.MGL{background-position: -216px -136px;}.flag img[src$="MGL"], .lFlag.MGL{background-position: -810px -480px;}      .mFlag.MGL{background-position: -405px -240px;}
+img[src$="MHL"], .sFlag.MHL{background-position: -240px -136px;}.flag img[src$="MHL"], .lFlag.MHL{background-position: -900px -480px;}      .mFlag.MHL{background-position: -450px -240px;}
+img[src$="MKD"], .sFlag.MKD{background-position: -264px -136px;}.flag img[src$="MKD"], .lFlag.MKD{background-position: -990px -480px;}      .mFlag.MKD{background-position: -495px -240px;}
+img[src$="MLI"], .sFlag.MLI{background-position: -288px -136px;}.flag img[src$="MLI"], .lFlag.MLI{background-position: -1080px -480px;}     .mFlag.MLI{background-position: -540px -240px;}
+img[src$="MLT"], .sFlag.MLT{background-position: -312px -136px;}.flag img[src$="MLT"], .lFlag.MLT{background-position: -1170px -480px;}     .mFlag.MLT{background-position: -585px -240px;}
+img[src$="MNE"], .sFlag.MNE{background-position: -336px -136px;}.flag img[src$="MNE"], .lFlag.MNE{background-position: -1260px -480px;}     .mFlag.MNE{background-position: -635px -240px;}
+img[src$="MON"], .sFlag.MON{background-position: 0 -153px;}		.flag img[src$="MON"], .lFlag.MON{background-position: 0 -540px;}           .mFlag.MON{background-position:    0   -270px;}
+img[src$="MOZ"], .sFlag.MOZ{background-position: -24px -153px;}	.flag img[src$="MOZ"], .lFlag.MOZ{background-position: -90px -540px;}       .mFlag.MOZ{background-position:  -45px -270px;}
+img[src$="MRI"], .sFlag.MRI{background-position: -48px -153px;}	.flag img[src$="MRI"], .lFlag.MRI{background-position: -180px -540px;}      .mFlag.MRI{background-position:  -90px -270px;}
+img[src$="MTN"], .sFlag.MTN{background-position: -72px -153px;}	.flag img[src$="MTN"], .lFlag.MTN{background-position: -270px -540px;}      .mFlag.MTN{background-position: -135px -270px;}
+img[src$="MYA"], .sFlag.MYA{background-position: -96px -153px;}	.flag img[src$="MYA"], .lFlag.MYA{background-position: -360px -540px;}      .mFlag.MYA{background-position: -180px -270px;}
+img[src$="NAM"], .sFlag.NAM{background-position: -120px -153px;}.flag img[src$="NAM"], .lFlag.NAM{background-position: -450px -540px;}      .mFlag.NAM{background-position: -225px -270px;}
+img[src$="NCA"], .sFlag.NCA{background-position: -144px -153px;}.flag img[src$="NCA"], .lFlag.NCA{background-position: -540px -540px;}      .mFlag.NCA{background-position: -270px -270px;}
+img[src$="NED"], .sFlag.NED{background-position: -168px -153px;}.flag img[src$="NED"], .lFlag.NED{background-position: -630px -540px;}      .mFlag.NED{background-position: -315px -270px;}
+img[src$="NEP"], .sFlag.NEP{background-position: -192px -153px;}.flag img[src$="NEP"], .lFlag.NEP{background-position: -720px -540px;}      .mFlag.NEP{background-position: -360px -270px;}
+img[src$="NGR"], .sFlag.NGR{background-position: -216px -153px;}.flag img[src$="NGR"], .lFlag.NGR{background-position: -810px -540px;}      .mFlag.NGR{background-position: -405px -270px;}
+img[src$="NIG"], .sFlag.NIG{background-position: -240px -153px;}.flag img[src$="NIG"], .lFlag.NIG{background-position: -900px -540px;}      .mFlag.NIG{background-position: -450px -270px;}
+img[src$="NOR"], .sFlag.NOR{background-position: -264px -153px;}.flag img[src$="NOR"], .lFlag.NOR{background-position: -990px -540px;}      .mFlag.NOR{background-position: -495px -270px;}
+img[src$="NRU"], .sFlag.NRU{background-position: -288px -153px;}.flag img[src$="NRU"], .lFlag.NRU{background-position: -1080px -540px;}     .mFlag.NRU{background-position: -540px -270px;}
+img[src$="NZL"], .sFlag.NZL{background-position: -312px -153px;}.flag img[src$="NZL"], .lFlag.NZL{background-position: -1170px -540px;}     .mFlag.NZL{background-position: -585px -270px;}
+img[src$="OMA"], .sFlag.OMA{background-position: -336px -153px;}.flag img[src$="OMA"], .lFlag.OMA{background-position: -1260px -540px;}     .mFlag.OMA{background-position: -635px -270px;}
+img[src$="PAK"], .sFlag.PAK{background-position: 0 -170px;}		.flag img[src$="PAK"], .lFlag.PAK{background-position: 0 -600px;}           .mFlag.PAK{background-position:    0   -300px;}
+img[src$="PAN"], .sFlag.PAN{background-position: -24px -170px;}	.flag img[src$="PAN"], .lFlag.PAN{background-position: -90px -600px;}       .mFlag.PAN{background-position:  -45px -300px;}
+img[src$="PAR"], .sFlag.PAR{background-position: -48px -170px;}	.flag img[src$="PAR"], .lFlag.PAR{background-position: -180px -600px;}      .mFlag.PAR{background-position:  -90px -300px;}
+img[src$="PER"], .sFlag.PER{background-position: -72px -170px;}	.flag img[src$="PER"], .lFlag.PER{background-position: -270px -600px;}      .mFlag.PER{background-position: -135px -300px;}
+img[src$="PHI"], .sFlag.PHI{background-position: -96px -170px;}	.flag img[src$="PHI"], .lFlag.PHI{background-position: -360px -600px;}      .mFlag.PHI{background-position: -180px -300px;}
+img[src$="PLE"], .sFlag.PLE{background-position: -120px -170px;}.flag img[src$="PLE"], .lFlag.PLE{background-position: -450px -600px;}      .mFlag.PLE{background-position: -225px -300px;}
+img[src$="PLW"], .sFlag.PLW{background-position: -144px -170px;}.flag img[src$="PLW"], .lFlag.PLW{background-position: -540px -600px;}      .mFlag.PLW{background-position: -270px -300px;}
+img[src$="PNG"], .sFlag.PNG{background-position: -168px -170px;}.flag img[src$="PNG"], .lFlag.PNG{background-position: -630px -600px;}	    .mFlag.PNG{background-position: -315px -300px;}	
+img[src$="POL"], .sFlag.POL{background-position: -192px -170px;}.flag img[src$="POL"], .lFlag.POL{background-position: -720px -600px;}      .mFlag.POL{background-position: -360px -300px;}
+img[src$="POR"], .sFlag.POR{background-position: -216px -170px;}.flag img[src$="POR"], .lFlag.POR{background-position: -810px -600px;}      .mFlag.POR{background-position: -405px -300px;}
+img[src$="PRK"], .sFlag.PRK{background-position: -240px -170px;}.flag img[src$="PRK"], .lFlag.PRK{background-position: -900px -600px;}      .mFlag.PRK{background-position: -450px -300px;}
+img[src$="PUR"], .sFlag.PUR{background-position: -264px -170px;}.flag img[src$="PUR"], .lFlag.PUR{background-position: -990px -600px;}      .mFlag.PUR{background-position: -495px -300px;}
+img[src$="QAT"], .sFlag.QAT{background-position: -288px -170px;}.flag img[src$="QAT"], .lFlag.QAT{background-position: -1080px -600px;}     .mFlag.QAT{background-position: -540px -300px;}
+img[src$="ROU"], .sFlag.ROU{background-position: -312px -170px;}.flag img[src$="ROU"], .lFlag.ROU{background-position: -1170px -600px;}     .mFlag.ROU{background-position: -585px -300px;}
+img[src$="RSA"], .sFlag.RSA{background-position: -336px -170px;}.flag img[src$="RSA"], .lFlag.RSA{background-position: -1260px -600px;}     .mFlag.RSA{background-position: -635px -300px;}
+img[src$="RUS"], .sFlag.RUS{background-position: 0 -187px;}		.flag img[src$="RUS"], .lFlag.RUS{background-position: 0 -660px;}           .mFlag.RUS{background-position:    0   -330px;}
+img[src$="RWA"], .sFlag.RWA{background-position: -24px -187px;}	.flag img[src$="RWA"], .lFlag.RWA{background-position: -90px -660px;}       .mFlag.RWA{background-position:  -45px -330px;}
+img[src$="SAM"], .sFlag.SAM{background-position: -48px -187px;}	.flag img[src$="SAM"], .lFlag.SAM{background-position: -180px -660px;}      .mFlag.SAM{background-position:  -90px -330px;}
+img[src$="SCG"], .sFlag.SCG{background-position: -72px -187px;}	.flag img[src$="SCG"], .lFlag.SCG{background-position: -270px -660px;}      .mFlag.SCG{background-position: -135px -330px;}
+img[src$="SEN"], .sFlag.SEN{background-position: -96px -187px;}	.flag img[src$="SEN"], .lFlag.SEN{background-position: -360px -660px;}      .mFlag.SEN{background-position: -180px -330px;}
+img[src$="SEY"], .sFlag.SEY{background-position: -120px -187px;}.flag img[src$="SEY"], .lFlag.SEY{background-position: -450px -660px;}      .mFlag.SEY{background-position: -225px -330px;}
+img[src$="SIN"], .sFlag.SIN{background-position: -144px -187px;}.flag img[src$="SIN"], .lFlag.SIN{background-position: -540px -660px;}      .mFlag.SIN{background-position: -270px -330px;}
+img[src$="SKN"], .sFlag.SKN{background-position: -168px -187px;}.flag img[src$="SKN"], .lFlag.SKN{background-position: -630px -660px;}      .mFlag.SKN{background-position: -315px -330px;}
+img[src$="SLE"], .sFlag.SLE{background-position: -192px -187px;}.flag img[src$="SLE"], .lFlag.SLE{background-position: -720px -660px;}      .mFlag.SLE{background-position: -360px -330px;}
+img[src$="SLO"], .sFlag.SLO{background-position: -216px -187px;}.flag img[src$="SLO"], .lFlag.SLO{background-position: -810px -660px;}      .mFlag.SLO{background-position: -405px -330px;}
+img[src$="SMR"], .sFlag.SMR{background-position: -240px -187px;}.flag img[src$="SMR"], .lFlag.SMR{background-position: -900px -660px;}      .mFlag.SMR{background-position: -450px -330px;}
+img[src$="SOL"], .sFlag.SOL{background-position: -264px -187px;}.flag img[src$="SOL"], .lFlag.SOL{background-position: -990px -660px;}      .mFlag.SOL{background-position: -495px -330px;}
+img[src$="SOM"], .sFlag.SOM{background-position: -288px -187px;}.flag img[src$="SOM"], .lFlag.SOM{background-position: -1080px -660px;}     .mFlag.SOM{background-position: -540px -330px;}
+img[src$="SRB"], .sFlag.SRB{background-position: -312px -187px;}.flag img[src$="SRB"], .lFlag.SRB{background-position: -1170px -660px;}     .mFlag.SRB{background-position: -585px -330px;}
+img[src$="SRI"], .sFlag.SRI{background-position: -336px -187px;}.flag img[src$="SRI"], .lFlag.SRI{background-position: -1260px -660px;}     .mFlag.SRI{background-position: -635px -330px;}
+img[src$="STP"], .sFlag.STP{background-position: 0 -204px;}		.flag img[src$="STP"], .lFlag.STP{background-position: 0 -720px;}           .mFlag.STP{background-position:    0   -360px;}
+img[src$="SUD"], .sFlag.SUD{background-position: -24px -204px;}	.flag img[src$="SUD"], .lFlag.SUD{background-position: -90px -720px;}       .mFlag.SUD{background-position:  -45px -360px;}
+img[src$="SUI"], .sFlag.SUI{background-position: -48px -204px;}	.flag img[src$="SUI"], .lFlag.SUI{background-position: -180px -720px;}      .mFlag.SUI{background-position:  -90px -360px;}
+img[src$="SUR"], .sFlag.SUR{background-position: -72px -204px;}	.flag img[src$="SUR"], .lFlag.SUR{background-position: -270px -720px;}      .mFlag.SUR{background-position: -135px -360px;}
+img[src$="SVK"], .sFlag.SVK{background-position: -96px -204px;}	.flag img[src$="SVK"], .lFlag.SVK{background-position: -360px -720px;}      .mFlag.SVK{background-position: -180px -360px;}
+img[src$="SWE"], .sFlag.SWE{background-position: -120px -204px;}.flag img[src$="SWE"], .lFlag.SWE{background-position: -450px -720px;}      .mFlag.SWE{background-position: -225px -360px;}
+img[src$="SWZ"], .sFlag.SWZ{background-position: -144px -204px;}.flag img[src$="SWZ"], .lFlag.SWZ{background-position: -540px -720px;}      .mFlag.SWZ{background-position: -270px -360px;}
+img[src$="SYR"], .sFlag.SYR{background-position: -168px -204px;}.flag img[src$="SYR"], .lFlag.SYR{background-position: -630px -720px;}      .mFlag.SYR{background-position: -315px -360px;}
+img[src$="TAH"], .sFlag.TAH{background-position: -192px -204px;}.flag img[src$="TAH"], .lFlag.TAH{background-position: -720px -720px;}      .mFlag.TAH{background-position: -360px -360px;}
+img[src$="TAN"], .sFlag.TAN{background-position: -216px -204px;}.flag img[src$="TAN"], .lFlag.TAN{background-position: -810px -720px;}      .mFlag.TAN{background-position: -405px -360px;}
+img[src$="TGA"], .sFlag.TGA{background-position: -240px -204px;}.flag img[src$="TGA"], .lFlag.TGA{background-position: -900px -720px;}      .mFlag.TGA{background-position: -450px -360px;}
+img[src$="THA"], .sFlag.THA{background-position: -264px -204px;}.flag img[src$="THA"], .lFlag.THA{background-position: -990px -720px;}      .mFlag.THA{background-position: -495px -360px;}
+img[src$="TJK"], .sFlag.TJK{background-position: -288px -204px;}.flag img[src$="TJK"], .lFlag.TJK{background-position: -1080px -720px;}     .mFlag.TJK{background-position: -540px -360px;}
+img[src$="TKM"], .sFlag.TKM{background-position: -312px -204px;}.flag img[src$="TKM"], .lFlag.TKM{background-position: -1170px -720px;}     .mFlag.TKM{background-position: -585px -360px;}
+img[src$="TLS"], .sFlag.TLS{background-position: -336px -204px;}.flag img[src$="TLS"], .lFlag.TLS{background-position: -1260px -720px;}     .mFlag.TLS{background-position: -635px -360px;}
+img[src$="TOG"], .sFlag.TOG{background-position: 0 -221px;}		.flag img[src$="TOG"], .lFlag.TOG{background-position: 0 -780px;}           .mFlag.TOG{background-position:    0   -390px;}
+img[src$="TPE"], .sFlag.TPE{background-position: -24px -221px;}	.flag img[src$="TPE"], .lFlag.TPE{background-position: -90px -780px;}       .mFlag.TPE{background-position:  -45px -390px;}
+img[src$="TTO"], .sFlag.TTO{background-position: -48px -221px;}	.flag img[src$="TTO"], .lFlag.TTO{background-position: -180px -780px;}      .mFlag.TTO{background-position:  -90px -390px;}
+img[src$="TUN"], .sFlag.TUN{background-position: -72px -221px;}	.flag img[src$="TUN"], .lFlag.TUN{background-position: -270px -780px;}      .mFlag.TUN{background-position: -135px -390px;}
+img[src$="TUR"], .sFlag.TUR{background-position: -96px -221px;}	.flag img[src$="TUR"], .lFlag.TUR{background-position: -360px -780px;}      .mFlag.TUR{background-position: -180px -390px;}
+img[src$="TUV"], .sFlag.TUV{background-position: -120px -221px;}.flag img[src$="TUV"], .lFlag.TUV{background-position: -450px -780px;}      .mFlag.TUV{background-position: -225px -390px;}
+img[src$="UAE"], .sFlag.UAE{background-position: -144px -221px;}.flag img[src$="UAE"], .lFlag.UAE{background-position: -540px -780px;}      .mFlag.UAE{background-position: -270px -390px;}
+img[src$="UGA"], .sFlag.UGA{background-position: -168px -221px;}.flag img[src$="UGA"], .lFlag.UGA{background-position: -630px -780px;}      .mFlag.UGA{background-position: -315px -390px;}
+img[src$="UKR"], .sFlag.UKR{background-position: -192px -221px;}.flag img[src$="UKR"], .lFlag.UKR{background-position: -720px -780px;}      .mFlag.UKR{background-position: -360px -390px;}
+img[src$="URU"], .sFlag.URU{background-position: -216px -221px;}.flag img[src$="URU"], .lFlag.URU{background-position: -810px -780px;}      .mFlag.URU{background-position: -405px -390px;}
+img[src$="USA"], .sFlag.USA{background-position: -240px -221px;}.flag img[src$="USA"], .lFlag.USA{background-position: -900px -780px;}      .mFlag.USA{background-position: -450px -390px;}
+img[src$="UZB"], .sFlag.UZB{background-position: -264px -221px;}.flag img[src$="UZB"], .lFlag.UZB{background-position: -990px -780px;}      .mFlag.UZB{background-position: -495px -390px;}
+img[src$="VAN"], .sFlag.VAN{background-position: -288px -221px;}.flag img[src$="VAN"], .lFlag.VAN{background-position: -1080px -780px;}     .mFlag.VAN{background-position: -540px -390px;}
+img[src$="VEN"], .sFlag.VEN{background-position: -312px -221px;}.flag img[src$="VEN"], .lFlag.VEN{background-position: -1170px -780px;}     .mFlag.VEN{background-position: -585px -390px;}
+img[src$="VIE"], .sFlag.VIE{background-position: -336px -221px;}.flag img[src$="VIE"], .lFlag.VIE{background-position: -1260px -780px;}     .mFlag.VIE{background-position: -635px -390px;}
+img[src$="VIN"], .sFlag.VIN{background-position: 0 -238px;}		.flag img[src$="VIN"], .lFlag.VIN{background-position: 0 -840px;}           .mFlag.VIN{background-position:    0   -420px;}
+img[src$="YEM"], .sFlag.YEM{background-position: -24px -238px;}	.flag img[src$="YEM"], .lFlag.YEM{background-position: -90px -840px;}       .mFlag.YEM{background-position:  -45px -420px;}
+img[src$="ZAM"], .sFlag.ZAM{background-position: -48px -238px;}	.flag img[src$="ZAM"], .lFlag.ZAM{background-position: -180px -840px;}      .mFlag.ZAM{background-position: -90px  -420px;}
+img[src$="ZIM"], .sFlag.ZIM{background-position: -72px -238px;}	.flag img[src$="ZIM"], .lFlag.ZIM{background-position: -270px -840px;}      .mFlag.ZIM{background-position: -135px -420px;}
+img[src$="KOS"], .sFlag.KOS{background-position: -96px -238px;}	.flag img[src$="KOS"], .lFlag.KOS{background-position: -360px -840px;}      .mFlag.KOS{background-position: -180px -420px;}
+img[src*="SSD"], .sFlag.SSD{background-position: -120px -238px;} .flag img[src*="SSD"], .lFlag.SSD{background-position: -450px -840px;}   	.mFlag.SSD{background-position: -225px -420px;}

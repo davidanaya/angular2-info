@@ -1,0 +1,23 @@
+#wrapper{	margin: 0 auto;	width: 1007px; position:relative; left:2px;	}
+	#wrapper > header {height: 150px;	width: 100%;	}
+		header div{display:inline-block;}
+		header #topBar{width:100%; background-color:#fff;height:25px;border-radius:0 0 4px 4px; box-shadow:1px 1px 3px 1px #333;}
+		header .multilanguage {    position: relative;   top: 5px;    left: -10px;    width: 100%;    text-align: right;    color: #000!important;}
+			.multilanguage a {color: #000!important;}
+		header .myInfo {
+		    background: url("/OIS/web/images/portal/myinfo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+		    height: 55px;width: 315px; position: relative; top: -30px;left: 200px;
+		}
+		header .logo {
+		    background: url("/OIS/web/images/portal/logo2016.png") no-repeat scroll 31px 0px rgba(255, 255, 255, 255);
+		    height: 100px;width: 246px; border:1px solid #fff; position: relative; top:-26px; left:215px;   box-shadow:2px 1px 9px 1px #333;
+		    border-radius:0px 0px 50px 50px; background-position-x:32px;background-position-y:-1px;
+		}
+		header .timestamp {    color: #fff;    font-size: 11px;    vertical-align: top;  position: relative;  position: relative;left: 219px;  top: 7px; width:213px;}
+		header .timestamp > div{display:block;text-align:right;}
+		header #portalMenu {height:35px;margin-bottom:5px;border-radius: 5px;background-color:#fff!important; border: 1px solid #bbb; border-collapse:separate; box-shadow: 1px 1px 1px 1px #333;}
+			#portalMenu td {vertical-align:middle!important;text-align:center!important;}
+			#portalMenu a{font-size:15px;}
+			#portalMenu a.selected {padding:5px;border-radius: 5px;background-color:#ffff00!important;}
+	#wrapper > section {background-color: rgba(255, 255, 255, 0.7); border-radius:10px 10px 0 0; padding:15px;}
+	#wrapper > footer {background-color:#333; height:100px;bottom:-100px;width:100%;position:absolute;z-index:-1;}

@@ -1,0 +1,93 @@
+/* SCH01 */
+#SCH01 #schedules th {white-space:normal;padding-right:4px; padding-left:4px;}
+#SCH01 #schedules th.sport{width:154px;}
+#SCH01 #schedules tr th.days {width: 28px; cursor: pointer;}
+#SCH01 #schedules tr td.hourCell { width: 29px;}
+#SCH01 #schedules tr td.hourCell div{width: 100%; height:34px;}
+#SCH01 #schedules tr td.sportCompetition {cursor: pointer;font-size:12px;}
+#SCH01 #schedules tr td{padding:0 0 1px 1px;height:30px;}
+#SCH01 #schedules tr td table{width:100%;}
+#SCH01 #schedules tr td.sportCompetition table{position:relative; top:1px;}
+#SCH01 #schedules tbody tr td{border-bottom:none;}
+#SCH01 #schedules tbody tr td .sport{padding-left:10px;}
+
+#SCH01 #schedules tr td.xSelected:not(.hasCompetition){cursor: default;}
+
+#SCH01 #schedules tr td.xSelected {background-color:#fff194!important;}
+#SCH01 #schedules tr td.xSelected.hasCompetition *{background-color:#67b9d1!important;width: 100% !important;}
+#SCH01 #schedules tr td.xSelected.currentDay *{background-color:#bce1b5!important;width: 100% !important;}
+#SCH01 #schedules tr td.xSelected.hasCompetition.currentDay *{background-color:#67b9d1!important;width: 100% !important;}
+
+#SCH01 #schedules tr td.hasMedalEvent *{background: #95ddf5 url(/OIS/global/images/schedules/medal_event.PNG) no-repeat center;}
+#SCH01 #schedules tr td.hasMedalEvent.currentDay *{background: #67b9d1 url(/OIS/global/images/schedules/medal_event.PNG) no-repeat center;}
+
+#SCH01 #schedules td.hasCompetition *{ background-color: #95ddf5; width: 100% !important; }
+#SCH01 #schedules td.currentDay *{background-color:#bce1b5; width: 100% !important;}
+#SCH01 #schedules td.currentDay.hasCompetition *{background-color:#67b9d1; width: 100% !important;}
+
+
+#SCH01[lang='FRA'] #schedules th {padding-right:0px; padding-left:1px;}
+#SCH01[lang='FRA'] #schedules tr td.sportCompetition{width:155px;}
+
+/* SCH02 */
+#SCH02 table#results {width:100%;}
+#SCH02 table#schedules th.datetime {width:130px;}
+#SCH02 table#schedules th.disc {width:90px;}
+#SCH02 table#schedules th.event {min-width:240px;}
+#SCH02 table#schedules th.location {width:120px;}
+#SCH02 table#schedules th.report {width:60px;}
+#SCH02 table#schedules th.status {width:100px;}
+
+/* SCH03 */
+#SCH03 td.hourCell { width: 29px; height:30px; padding: 0 !important;}
+#SCH03 td.hourCell div{height:30px;}
+#SCH03 th.hours {width: 29px}
+#SCH03 th.sport {width:125px;}
+#SCH03 .hasCompetition{ background-color: #95ddf5; cursor:pointer; }
+#SCH03 td.hourCell div:not(.hasCompetition){pointer-events: none;cursor: default;}
+
+/* SCH04 */
+#SCH04 table#schedules th.datetime {width:130px;}
+#SCH04 table#schedules th.disc {width:90px;}
+#SCH04 table#schedules th.event {min-width:240px;}
+#SCH04 table#schedules th.location {width:90px;}
+#SCH04 table#schedules th.result {width:60px;}
+#SCH04 table#schedules th.report {width:60px;}
+#SCH04 table#schedules th.status {width:100px;}
+
+
+div.current-day-competition, td.current-day-competition {background-color: #bce1b5 !important;}
+
+/* live icon for schedule tables */
+td.liveIcon{background-image: url("/OIS/global/images/schedules/live_icon.png");background-repeat: no-repeat;background-position:3px center;}
+td.showLive{padding-left:26px!important;}
+td span.medalEvent{width: 24px;height: 24px;background-position:center right;display:inline-block;}
+td span.goldMedalEventIcon{background-image: url("/OIS/global/images/schedules/gold_medal_event.png");background-repeat: no-repeat;background-position:center center;}
+td span.bronzeMedalEventIcon{background-image: url("/OIS/global/images/schedules/bronze_medal_event.png");background-repeat: no-repeat;background-position:center center;}
+td span.noMedalEventIcon{width:0px!important;}
+
+/* LEGENDS */
+#SCH02 #legends li, #SCH03 #legends li, #SCH04 #legends li, #SCH11 #legends li, #SCH12 #legends li{width:33%;}
+
+/*SCH01*/
+#legends .dayWithMedalEvent {	background: transparent url(/OIS/global/images/schedules/medal_event.png) no-repeat center; position:relative; left:-5px; top:7px; width:24px;height:24px;	}
+#legends .dayWithEvents, #legends .currentDay, #legends .currentDayWithEvents, #legends .selectedRowAndColumn{height:17px;width:17px;float:left;margin-right:4px; margin-top:3px;}
+#legends .dayWithEvents{background-color:#95ddf5;}
+#legends .currentDay{background-color:#bce1b5;}
+#legends .currentDayWithEvents{background-color:#67b9d1;}
+#legends .selectedRowAndColumn{background-color:#fff194;}
+
+#legends .currentDay{margin:0 7px 0 8px;}
+#SCH01 #legends .dayWithEvents, #SCH01 #legends .currentDay, #SCH01 #legends .currentDayWithEvents, #SCH01 #legends .selectedRowAndColumn{margin:0 10px 0 0px;}
+
+
+
+/*SCH02 SCH04 SCH11 SC012*/
+#legends .liveIcon{background-image: url("/OIS/global/images/schedules/live_icon.png");background-repeat: no-repeat;background-position:center 0px; width:30px; height:13px;position:relative;top:2px;}
+#legends .bronzeMedalEventIcon{background-image: url("/OIS/global/images/schedules/bronce_medal_event.png");background-repeat: no-repeat;background-position:center center; width:30px; height:16px;}
+#legends .goldMedalEventIcon{background-image: url("/OIS/global/images/schedules/gold_medal_event.png");background-repeat: no-repeat;background-position:center center; width:30px; height:16px;}
+#legends .reportsIcon{background-image: url("/OIS/global/images/schedules/reports.png");background-repeat: no-repeat;background-position:center center; width:30px; height:19px;position:relative;top:5px;}
+#legends .myScheduleIcon{background-image: url("/OIS/global/images/schedules/myschedule.png");background-repeat: no-repeat;background-position:center center; width:30px; height:17px;position:relative;top:5px;}
+
+#legends .mediaAccessClosed{background-image: url("/OIS/global/images/schedules/media_access_closed.png");background-repeat: no-repeat;background-position:center center; width:30px; height:19px;position:relative;top:5px;}
+#legends .lastMinuteUpdate{background-image: url("/OIS/global/images/schedules/warning_Icon.png");background-repeat: no-repeat;background-position:center center; width:30px; height:18px;position:relative;top:5px;}

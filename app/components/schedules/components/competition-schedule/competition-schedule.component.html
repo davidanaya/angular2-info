@@ -1,0 +1,46 @@
+<table class="screen" id="SCH01" *ngIf="isDataReady"><tr>
+	<td class="aside" valign="top">
+		<ao-sch-navigation [selected]="'competitionSchedule'" (update)="onUpdateFilter($event)"></ao-sch-navigation>
+	</td>
+	<td class="separator"></td>
+	<td class="mainPanel" valign="top">
+		<div class="breadcrumbs">
+			<span>breadcrumbs</span>
+		</div>
+    <div id="header">
+    	<div class="mainTitle">
+    		<span>Competition Schedule</span>
+    	</div>
+    </div>
+		<div id="mainContent">
+			<table id="schedules" class="dataGrid" (mouseleave)="resetXSelection()">
+				<thead>
+					<tr>
+						<th [attr.colspan]="competitionDaysNumber"><span>{{ competitionMonth }}</span></th>
+					</tr>
+					<tr>
+						<th class="sport"></th>
+						<th *ngFor="let date of competitionDaysDates" class="days">
+							<span>{{ date[0] }}</span>
+			   		</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let schedule of schedules">
+						<td class="sportCompetition left"
+								(mouseover)="onMouseOver(schedule.sportCode,'')" 
+								[ngClass]="{xSelected: isXSelection(schedule.sportCode,'')}">
+							<ao-sport-icon [sport]="schedule.sportCode" [fullName]="true"></ao-sport-icon>							
+						</td>
+						<td *ngFor="let date of competitionDaysDates"
+								class="hourCell {{getCompetitionDayStyles(schedule.days, date[0])}}" 
+								(mouseover)="onMouseOver(schedule.sportCode, date[0])" 
+								[ngClass]="{xSelected: isXSelection(schedule.sportCode, date[0])}">
+							<div></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+    </div>
+  </td>
+</tr></table>

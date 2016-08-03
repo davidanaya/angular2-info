@@ -1,0 +1,16 @@
+<div ngbDropdown class="aoCombo btn-group {{type}}">
+  <button id="dropdownMenu1" type="button" class="btn btn-primary" [disabled]="disabled" ngbDropdownToggle>
+    <span class="text">{{ selectedName }}</span>
+    <span class="caret"></span>
+  </button>
+  <div class="dropdown-menu {{dropLayout}}" aria-labelledby="dropdownMenu1">
+    <ul>
+      <li class="clickable" (click)="select()">
+        <span>All</span>
+      </li><li *ngFor="let item of options" class="clickable" (click)="select(item)">
+        <span *ngIf="isTypeSports" class="sportIconSmall {{item.id}}"></span>
+        <span class="text">{{ item.name }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

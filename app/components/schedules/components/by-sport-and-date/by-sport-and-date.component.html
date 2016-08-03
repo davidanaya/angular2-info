@@ -1,0 +1,53 @@
+<table class="screen" id="SCH02" *ngIf="isDataReady"><tr>
+	<td class="aside" valign="top">
+		<ao-sch-navigation [selected]="'bySportAndDate'" (update)="onUpdateFilter($event)"></ao-sch-navigation>
+	</td>
+	<td class="separator"></td>
+	<td class="mainPanel" valign="top">
+		<div class="breadcrumbs">
+			<span>breadcrumbs</span>
+		</div>
+    <div id="header">
+    	<div class="mainTitle">
+    		<span>By Sport and Date: All Sports</span>
+    	</div>
+    </div>
+		<div id="mainContent">
+			<ao-pagination [pageSet]="pageSet" (update)="onUpdatePage($event)"></ao-pagination>
+			<span id="tabs">
+				<div (click)="setGender()" class="clickable" [ngClass]="{selected: isGender()}">All</div>
+				<div (click)="setGender('M')" class="clickable" [ngClass]="{selected: isGender('M')}">Men</div>
+				<div (click)="setGender('W')" class="clickable" [ngClass]="{selected: isGender('W')}">Women</div>
+				<div (click)="setGender('X')" class="clickable" [ngClass]="{selected: isGender('X')}">Mixed</div>
+				<div (click)="setGender('O')" class="clickable" [ngClass]="{selected: isGender('O')}">Open</div>
+			</span>
+			<table id="schedules" class="dataGrid">
+        <thead>
+      		<tr>
+            <th class="datetime sortable clickable" [ngClass]="{'sort-up': isUpSort('byTime'), 'sort-down': isDownSort('byTime')}" colspan="2" (click)="setOrder('byTime')"><span>startDate</span></th>
+      			<th class="disc sortable clickable" [ngClass]="{'sort-up': isUpSort('bySport'), 'sort-down': isDownSort('bySport')}" (click)="setOrder('bySport')"><span>sport</span></th>
+      			<th class="event sortable clickable" [ngClass]="{'sort-up': isUpSort('byEvent'), 'sort-down': isDownSort('byEvent')}" (click)="setOrder('byEvent')"><span>event</span></th>
+						<th class="location sortable clickable" [ngClass]="{'sort-up': isUpSort('byLocation'), 'sort-down': isDownSort('byLocation')}" (click)="setOrder('byLocation')"><span>location</span></th>
+      			<th class="report"><span>report</span></th>
+      			<th class="status sortable clickable" [ngClass]="{'sort-up': isUpSort('byStatus'), 'sort-down': isDownSort('byStatus')}" (click)="setOrder('byStatus')"><span>status</span></th>
+      		</tr>
+      	</thead>
+      	<tbody>
+      		<tr *ngFor="let schedule of schedules">
+      			<td class="date"><ao-date-formatter [date]="schedule.dStartDate" [pattern]="'EEE dd'"></ao-date-formatter></td>
+						<td class="time"><ao-date-formatter [date]="schedule.dStartDate" [pattern]="'HH:mm'"></ao-date-formatter></td>
+            <td class="sport"><ao-sport-icon [sport]="schedule.sport"></ao-sport-icon></td>
+            <td class="event">
+							<span class="medalEvent {{getMedalIcon(schedule.medal)}}"></span>
+							<span>{{ getCommonCodeValue("eventunit", schedule.rsc) }}</span>
+						</td>
+            <td class="location"><span>{{ getCommonCodeValue("location", schedule.location) }}</span></td>
+						<td class="report"><span></span></td>
+            <td class="status"><span>{{ schedule.status }}</span></td>
+      		</tr>
+      	</tbody>
+      </table>
+			<ao-pagination [pageSet]="pageSet" (update)="onUpdatePage($event)"></ao-pagination>
+    </div>
+  </td>
+</tr></table>

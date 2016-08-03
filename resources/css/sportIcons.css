@@ -1,0 +1,39 @@
+span.sportIcon {	background: url("/OIS/global/images/sports/all_sports.png") 0 0;	
+					background-size: 651px 456px;	width: 93px;	height: 76px; display:inline-block;}
+span.sportIcon.CER {	background: url("/OIS/global/images/sports/CER.png") 0 0;	
+					background-size: 76px 76px;	width: 93px;	height: 76px; display:inline-block;}
+span.sportIcon.ALP {  background-position:   0   0;}
+span.sportIcon.BOB {  background-position: -93px   0;}
+span.sportIcon.BTH {  background-position: -186px   0;}
+span.sportIcon.CCS {  background-position: -279px   0;}
+span.sportIcon.CUR {  background-position: -372px   0;}
+span.sportIcon.FRS {  background-position: -465px   0;}
+span.sportIcon.FSK {  background-position: -558px   0;}
+span.sportIcon.IHO {  background-position:   0   -76px;}
+span.sportIcon.LUG {  background-position: -93px   -76px;}
+span.sportIcon.NCB {  background-position: -186px   -76px;}
+span.sportIcon.SBD {  background-position: -279px   -76px;}
+span.sportIcon.SJP {  background-position: -372px   -76px;}
+span.sportIcon.SKN {  background-position: -465px   -76px;}
+span.sportIcon.SSK {  background-position: -558px   -76px;}
+span.sportIcon.STK {  background-position:   0   -152px;}
+
+span.sportIconSmall {	background: url("/OIS/global/images/sports/all_sports.png") 0 0;	
+						background-size: 217px 152px;	width: 31px;	height: 25px; display:inline-block;}
+span.sportIconSmall.CER { background: url("/OIS/global/images/sports/CER.png") 0 0;
+						background-size: 31px 25px;	width: 31px;	height: 25px; display:inline-block;}
+span.sportIconSmall.ALP {  background-position:   0   0;}
+span.sportIconSmall.BOB {  background-position: -31px   0;}
+span.sportIconSmall.BTH {  background-position: -62px   0;}
+span.sportIconSmall.CCS {  background-position: -93px   0;}
+span.sportIconSmall.CUR {  background-position: -124px   0;}
+span.sportIconSmall.FRS {  background-position: -155px   0;}
+span.sportIconSmall.FSK {  background-position: -186px   0;}
+span.sportIconSmall.IHO {  background-position:   0   -26px;}
+span.sportIconSmall.LUG {  background-position: -31px   -26px;}
+span.sportIconSmall.NCB {  background-position: -62px   -26px;}
+span.sportIconSmall.SBD {  background-position: -93px   -26px;}
+span.sportIconSmall.SJP {  background-position: -124px   -26px;}
+span.sportIconSmall.SKN {  background-position: -155px   -26px;}
+span.sportIconSmall.SSK {  background-position: -186px   -26px;}
+span.sportIconSmall.STK {  background-position:   0   -52px;}

@@ -1,0 +1,21 @@
+<span class="asideMenu">
+  <nav class="navigation">
+		<ul>
+			<li [ngClass]="{selected: isSelected('competitionSchedule')}"><span [routerLink]="['../competitionSchedule']">COMPETITION SCHEDULE</span></li>
+			<li [ngClass]="{selected: isSelected('bySportAndDate')}"><span [routerLink]="['../bySportAndDate']">BY SPORT AND DATE</span></li>
+			<li [ngClass]="{selected: isSelected('scheduleByNoc')}"><span [routerLink]="['../scheduleByNoc']">SCHEDULE BY NOC</span></li>
+			<li [ngClass]="{selected: isSelected('activityList')}"><span [routerLink]="['../activityList']">ACTIVITY LIST</span></li>
+			<li [ngClass]="{selected: isSelected('nonCompetition')}"><span [routerLink]="['../nonCompetition']">NON-COMPETITION</span></li>
+		</ul>
+	</nav>
+	<ul id="sch02Filters" class="filters">
+		<li>
+			<div class="filter-label">Sport</div>
+      <ao-combo [options]="sportsList" [type]="'sports'" (update)="onSelectSport($event)"></ao-combo>
+		</li>
+		<li>
+			<div class="filter-label">Event</div>
+      <ao-combo [disabled]="!isSportSelected()" [options]="eventsInSport" (update)="onSelectEvent($event)"></ao-combo>
+		</li>
+	</ul>
+</span>

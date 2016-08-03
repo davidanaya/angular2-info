@@ -1,0 +1,22 @@
+<div id="wrapper">
+	<div>
+		<header>
+			<div id="topBar"></div>
+			<div class="myInfo"></div>
+			<div class="logo"></div>
+			<table id="portalMenu" class="layout w100">
+				<thead></thead>
+				<tbody>
+					<tr>
+						<td class="category"><a [routerLink]="['schedules']">Schedules</a></td>
+						<td class="category"><a [routerLink]="['medals']">Medals</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</header>
+	</div>
+	<section>
+		<router-outlet></router-outlet>
+	</section>
+	<footer></footer>
+</div>
