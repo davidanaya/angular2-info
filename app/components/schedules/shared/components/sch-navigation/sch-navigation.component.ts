@@ -34,10 +34,6 @@ export class SchNavigationComponent implements OnInit {
     }
   }
 
-  isSelected(state: string) : boolean {
-    return state === this.selected;
-  }
-
   onSelectSport(event) {
     this.sport = event.selected;
     this.event = '';
@@ -51,8 +47,24 @@ export class SchNavigationComponent implements OnInit {
   }
 
   // methods
+  isSelected(state: string) : boolean {
+    return state === this.selected;
+  }
+  
   isSportSelected() : boolean {
     return this.sport ? this.sport !== '' : false;
+  }
+
+  private showFilter(screens : string[]) : boolean {
+    return screens.indexOf(this.selected) !== -1;
+  }
+
+  showSportFilter() : boolean {
+    return this.showFilter([ 'bySportAndDate', 'scheduleByNoc', 'activityList' ]);
+  }
+
+  showEventFilter() : boolean {
+    return this.showFilter([ 'bySportAndDate' ]);
   }
 
 }

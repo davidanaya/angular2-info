@@ -9,11 +9,11 @@
 		</ul>
 	</nav>
 	<ul id="sch02Filters" class="filters">
-		<li>
+		<li *ngIf="showSportFilter()">
 			<div class="filter-label">Sport</div>
       <ao-combo [options]="sportsList" [type]="'sports'" (update)="onSelectSport($event)"></ao-combo>
 		</li>
-		<li>
+		<li *ngIf="showEventFilter()">
 			<div class="filter-label">Event</div>
       <ao-combo [disabled]="!isSportSelected()" [options]="eventsInSport" (update)="onSelectEvent($event)"></ao-combo>
 		</li>

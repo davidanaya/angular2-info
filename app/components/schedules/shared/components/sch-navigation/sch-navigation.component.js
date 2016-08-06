@@ -32,9 +32,6 @@ var SchNavigationComponent = (function () {
             this.eventsInSport = this.commonCodesService.getEventsList(this.sport);
         }
     };
-    SchNavigationComponent.prototype.isSelected = function (state) {
-        return state === this.selected;
-    };
     SchNavigationComponent.prototype.onSelectSport = function (event) {
         this.sport = event.selected;
         this.event = '';
@@ -46,8 +43,20 @@ var SchNavigationComponent = (function () {
         this.onSelect(false);
     };
     // methods
+    SchNavigationComponent.prototype.isSelected = function (state) {
+        return state === this.selected;
+    };
     SchNavigationComponent.prototype.isSportSelected = function () {
         return this.sport ? this.sport !== '' : false;
+    };
+    SchNavigationComponent.prototype.showFilter = function (screens) {
+        return screens.indexOf(this.selected) !== -1;
+    };
+    SchNavigationComponent.prototype.showSportFilter = function () {
+        return this.showFilter(['bySportAndDate', 'scheduleByNoc', 'activityList']);
+    };
+    SchNavigationComponent.prototype.showEventFilter = function () {
+        return this.showFilter(['bySportAndDate']);
     };
     __decorate([
         core_1.Input(), 
