@@ -45,6 +45,33 @@ const routes: RouterConfig = [
         path: 'nonCompetition',
         component: NonCompetitionComponent,
         canActivate: [ CommonCodesService ]
+      },
+      // sports
+      {
+        path: 'crossCountry',
+        component: CrossCountryComponent,
+        children: [
+          { 
+            path: '', 
+            redirectTo: 'ccsRes03', 
+            pathMatch: 'full'
+          },
+          {
+            path: 'ccsRes03',
+            component: CcsRes03Component,
+            canActivate: [ CommonCodesService ]
+          },
+          {
+            path: 'ccsCls01',
+            component: CcsCls01Component,
+            canActivate: [ CommonCodesService ]
+          },
+          {
+            path: 'ccsBrk01',
+            component: CcsBrk01Component,
+            canActivate: [ CommonCodesService ]
+          }
+        ]
       }
     ]
   },

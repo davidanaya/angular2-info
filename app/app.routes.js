@@ -44,6 +44,33 @@ var routes = [
                 path: 'nonCompetition',
                 component: schedules_1.NonCompetitionComponent,
                 canActivate: [shared_1.CommonCodesService]
+            },
+            // sports
+            {
+                path: 'crossCountry',
+                component: CrossCountryComponent,
+                children: [
+                    {
+                        path: '',
+                        redirectTo: 'ccsRes03',
+                        pathMatch: 'full'
+                    },
+                    {
+                        path: 'ccsRes03',
+                        component: CcsRes03Component,
+                        canActivate: [shared_1.CommonCodesService]
+                    },
+                    {
+                        path: 'ccsCls01',
+                        component: CcsCls01Component,
+                        canActivate: [shared_1.CommonCodesService]
+                    },
+                    {
+                        path: 'ccsBrk01',
+                        component: CcsBrk01Component,
+                        canActivate: [shared_1.CommonCodesService]
+                    }
+                ]
             }
         ]
     },
