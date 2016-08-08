@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 var CcsBrk01Component = (function () {
     function CcsBrk01Component() {
     }
@@ -16,6 +17,7 @@ var CcsBrk01Component = (function () {
         core_1.Component({
             selector: 'ao-ccs-brk01',
             templateUrl: 'app/components/sports/components/cross-country/components/ccs-brk01/ccs-brk01.component.html',
+            directives: [router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], CcsBrk01Component);

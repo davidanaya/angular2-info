@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { DatePipe } from '@angular/common';
 
 import { Constants } from '../../shared';
+import { Schedule } from '../../components/schedules';
 
 @Injectable()
 export class HelperService {
@@ -24,7 +25,7 @@ export class HelperService {
 		return competitionDays;
 	}
 
-	getCompetitionMonth() {
+	getCompetitionMonth() : string {
 		let months = {};
 		let iDate = new Date(Constants.START_DATE.getTime());
 		while (iDate.getTime() !== Constants.END_DATE.getTime()) {
@@ -38,7 +39,11 @@ export class HelperService {
 		return month;			
 	}
 
-	getNumberOfCompetitionDays() {
+	getSportsEventUnitLink(schedule: Schedule) : string {
+		return `/results/${ schedule.sport }/${ schedule.rsc }`;
+	}
+
+	getNumberOfCompetitionDays() : number {
 		let numberOfDays = 0;				
 		let iDate = new Date(Constants.START_DATE.getTime());
 		while (iDate.getTime() !== Constants.END_DATE.getTime()) {

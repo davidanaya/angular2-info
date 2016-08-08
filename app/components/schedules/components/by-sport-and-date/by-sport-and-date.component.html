@@ -39,7 +39,8 @@
             <td class="sport"><ao-sport-icon [sport]="schedule.sport"></ao-sport-icon></td>
             <td class="event">
 							<span class="medalEvent {{getMedalIcon(schedule.medal)}}"></span>
-							<span>{{ getCommonCodeValue("eventunit", schedule.rsc) }}</span>
+							<a *ngIf="schedule.active" [routerLink]="getLink(schedule)">{{ getCommonCodeValue("eventunit", schedule.rsc) }}</a>
+							<span *ngIf="!schedule.active">{{ getCommonCodeValue("eventunit", schedule.rsc) }}</span>
 						</td>
             <td class="location"><span>{{ getCommonCodeValue("location", schedule.location) }}</span></td>
 						<td class="report"><span></span></td>

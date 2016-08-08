@@ -4,6 +4,7 @@ var router_1 = require('@angular/router');
 //import { MedalsComponent } from 'medals';
 var schedules_1 = require('./components/schedules');
 var medals_1 = require('./components/medals');
+var cross_country_1 = require('./components/sports/components/cross-country');
 var shared_1 = require('./shared');
 var routes = [
     {
@@ -44,33 +45,29 @@ var routes = [
                 path: 'nonCompetition',
                 component: schedules_1.NonCompetitionComponent,
                 canActivate: [shared_1.CommonCodesService]
-            },
-            // sports
+            }
+        ]
+    },
+    {
+        path: 'results/CCS/:rsc',
+        component: cross_country_1.CrossCountryComponent,
+        children: [
             {
-                path: 'crossCountry',
-                component: CrossCountryComponent,
-                children: [
-                    {
-                        path: '',
-                        redirectTo: 'ccsRes03',
-                        pathMatch: 'full'
-                    },
-                    {
-                        path: 'ccsRes03',
-                        component: CcsRes03Component,
-                        canActivate: [shared_1.CommonCodesService]
-                    },
-                    {
-                        path: 'ccsCls01',
-                        component: CcsCls01Component,
-                        canActivate: [shared_1.CommonCodesService]
-                    },
-                    {
-                        path: 'ccsBrk01',
-                        component: CcsBrk01Component,
-                        canActivate: [shared_1.CommonCodesService]
-                    }
-                ]
+                path: '',
+                redirectTo: 'CCS_RES03',
+                pathMatch: 'full'
+            },
+            {
+                path: 'CCS_RES03',
+                component: cross_country_1.CcsRes03Component
+            },
+            {
+                path: 'CCS_CLS01',
+                component: cross_country_1.CcsCls01Component
+            },
+            {
+                path: 'CCS_BRK01',
+                component: cross_country_1.CcsBrk01Component
             }
         ]
     },

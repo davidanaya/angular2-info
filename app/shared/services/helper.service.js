@@ -44,6 +44,9 @@ var HelperService = (function () {
         }
         return month;
     };
+    HelperService.prototype.getSportsEventUnitLink = function (schedule) {
+        return "/results/" + schedule.sport + "/" + schedule.rsc;
+    };
     HelperService.prototype.getNumberOfCompetitionDays = function () {
         var numberOfDays = 0;
         var iDate = new Date(shared_1.Constants.START_DATE.getTime());

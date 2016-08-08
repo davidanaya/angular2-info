@@ -13,6 +13,7 @@ export interface Schedule {
   sport: string;
   startDate: string;
   status: string;
+  template: string;
   // calculated fields
   dStartDate: Date;
   dEndDate: Date;

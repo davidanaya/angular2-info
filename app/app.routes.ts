@@ -4,6 +4,7 @@ import { provideRouter, RouterConfig }  from '@angular/router';
 //import { MedalsComponent } from 'medals';
 import { SchedulesService, SchedulesComponent, CompetitionScheduleComponent, BySportAndDateComponent, ScheduleByNocComponent, ActivityListComponent, NonCompetitionComponent } from './components/schedules';
 import { MedalsComponent } from './components/medals';
+import { CrossCountryComponent, CcsRes03Component, CcsCls01Component, CcsBrk01Component } from './components/sports/components/cross-country';
 import { CommonCodesService } from './shared';
 
 const routes: RouterConfig = [
@@ -45,33 +46,29 @@ const routes: RouterConfig = [
         path: 'nonCompetition',
         component: NonCompetitionComponent,
         canActivate: [ CommonCodesService ]
+      }
+    ]
+  },
+  {
+    path: 'results/CCS/:rsc',
+    component: CrossCountryComponent,
+    children: [
+      { 
+        path: '', 
+        redirectTo: 'CCS_RES03', 
+        pathMatch: 'full'
       },
-      // sports
       {
-        path: 'crossCountry',
-        component: CrossCountryComponent,
-        children: [
-          { 
-            path: '', 
-            redirectTo: 'ccsRes03', 
-            pathMatch: 'full'
-          },
-          {
-            path: 'ccsRes03',
-            component: CcsRes03Component,
-            canActivate: [ CommonCodesService ]
-          },
-          {
-            path: 'ccsCls01',
-            component: CcsCls01Component,
-            canActivate: [ CommonCodesService ]
-          },
-          {
-            path: 'ccsBrk01',
-            component: CcsBrk01Component,
-            canActivate: [ CommonCodesService ]
-          }
-        ]
+        path: 'CCS_RES03',
+        component: CcsRes03Component
+      },
+      {
+        path: 'CCS_CLS01',
+        component: CcsCls01Component
+      },
+      {
+        path: 'CCS_BRK01',
+        component: CcsBrk01Component
       }
     ]
   },

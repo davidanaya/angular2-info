@@ -14,6 +14,7 @@ var router_1 = require('@angular/router');
 //import { MedalsComponent } from 'medals';
 var schedules_1 = require('./components/schedules');
 var medals_1 = require('./components/medals');
+var cross_country_1 = require('./components/sports/components/cross-country');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -23,7 +24,11 @@ var AppComponent = (function () {
             templateUrl: 'app/app.component.html',
             styleUrls: ['app/app.component.css'],
             directives: [router_1.ROUTER_DIRECTIVES],
-            precompile: [schedules_1.SchedulesComponent, medals_1.MedalsComponent]
+            precompile: [
+                schedules_1.SchedulesComponent,
+                medals_1.MedalsComponent,
+                cross_country_1.CrossCountryComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

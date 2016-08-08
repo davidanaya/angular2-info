@@ -15,12 +15,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
+var router_1 = require('@angular/router');
 var schedules_1 = require('../../../schedules');
 var shared_1 = require('../../../../shared');
 var BySportAndDateComponent = (function (_super) {
     __extends(BySportAndDateComponent, _super);
-    function BySportAndDateComponent(schedulesService, commonCodesService) {
+    function BySportAndDateComponent(schedulesService, commonCodesService, helperService) {
         _super.call(this, schedulesService, commonCodesService);
+        this.helperService = helperService;
         this.filter = new schedules_1.Filter();
     }
     // on events
@@ -28,6 +30,9 @@ var BySportAndDateComponent = (function (_super) {
         this.filter.sport = event.sport;
         this.filter.event = event.event;
         this.updateSchedules(1);
+    };
+    BySportAndDateComponent.prototype.getLink = function (schedule) {
+        return this.helperService.getSportsEventUnitLink(schedule);
     };
     BySportAndDateComponent.prototype.isGender = function (gender) {
         return !gender ? this.filter.gender === '' : this.filter.gender === gender;
@@ -49,9 +54,16 @@ var BySportAndDateComponent = (function (_super) {
             selector: 'ao-by-sport-and-date',
             templateUrl: 'app/components/schedules/components/by-sport-and-date/by-sport-and-date.component.html',
             styleUrls: ['app/components/schedules/schedules.component.css'],
-            directives: [shared_1.SportIconComponent, shared_1.PaginationComponent, shared_1.DateFormatterComponent, common_1.NgClass, schedules_1.SchNavigationComponent]
+            directives: [
+                shared_1.SportIconComponent,
+                shared_1.PaginationComponent,
+                shared_1.DateFormatterComponent,
+                common_1.NgClass,
+                schedules_1.SchNavigationComponent,
+                router_1.ROUTER_DIRECTIVES
+            ]
         }), 
-        __metadata('design:paramtypes', [schedules_1.SchedulesService, shared_1.CommonCodesService])
+        __metadata('design:paramtypes', [schedules_1.SchedulesService, shared_1.CommonCodesService, shared_1.HelperService])
     ], BySportAndDateComponent);
     return BySportAndDateComponent;
 }(schedules_1.SchedulesScreenComponentBase));

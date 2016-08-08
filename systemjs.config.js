@@ -8,7 +8,7 @@
     'app': 'app', // 'dist',
     'schedules': 'app/components/schedules',
     'medals': 'app/components/medals',
-    'sports': 'app/components/sports',
+    'cross-country': 'app/components/sports/components/cross-country',
     'shared': 'app/shared',
     '@angular': 'node_modules/@angular',
     '@ng-bootstrap': 'node_modules/@ng-bootstrap',
@@ -33,7 +33,7 @@
     '@ng-bootstrap/ng-bootstrap',
     'schedules',
     'medals',
-    'sports',
+    'cross-country',
     'shared'
   ];
   // Individual files (~300 requests):
