@@ -9,15 +9,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
 var CcsCls01Component = (function () {
     function CcsCls01Component() {
     }
     CcsCls01Component = __decorate([
         core_1.Component({
             selector: 'ao-ccs-cls01',
-            templateUrl: 'app/components/sports/components/cross-country/components/ccs-cls01/ccs-cls01.component.html',
-            directives: [router_1.ROUTER_DIRECTIVES]
+            templateUrl: 'app/components/sports/components/cross-country/components/ccs-cls01/ccs-cls01.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], CcsCls01Component);

@@ -14,3 +14,5 @@ export * from './model/result-set';
 export * from './model/screen-component-base';
 
 export * from './constants';
+
+export * from './shared.module';

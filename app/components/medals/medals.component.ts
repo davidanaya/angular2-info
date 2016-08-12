@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'ao-medals',
-  templateUrl: 'app/components/medals/medals.component.html'
+  template: '<h3>Medals</h3>'
 })
 export class MedalsComponent {
 

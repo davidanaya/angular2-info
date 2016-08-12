@@ -1,22 +1,12 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { NgClass } from '@angular/common';
-import { ROUTER_DIRECTIVES } from '@angular/router';
+import { Component } from '@angular/core';
 
-import { SchedulesService, Schedule, SchedulesScreenComponentBase, SchNavigationComponent, Filter } from '../../../schedules';
-import { HelperService, CommonCodesService, SportIconComponent, ResultSet, PageSet, PaginationComponent, DateFormatterComponent } from '../../../../shared';
+import { SchedulesService, Schedule, SchedulesScreenComponentBase, Filter } from '../../../schedules';
+import { HelperService, CommonCodesService } from '../../../../shared';
 
 @Component({
   selector: 'ao-by-sport-and-date',
   templateUrl: 'app/components/schedules/components/by-sport-and-date/by-sport-and-date.component.html',
-  styleUrls: ['app/components/schedules/schedules.component.css'],
-  directives: [ 
-    SportIconComponent, 
-    PaginationComponent, 
-    DateFormatterComponent, 
-    NgClass, 
-    SchNavigationComponent,
-    ROUTER_DIRECTIVES
-  ]
+  styleUrls: ['app/components/schedules/schedules.component.css']
 })
 export class BySportAndDateComponent extends SchedulesScreenComponentBase {
   private filter = new Filter();

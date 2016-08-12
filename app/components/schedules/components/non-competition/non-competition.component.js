@@ -14,7 +14,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
 var schedules_1 = require('../../../schedules');
 var shared_1 = require('../../../../shared');
 var NonCompetitionComponent = (function (_super) {
@@ -33,8 +32,7 @@ var NonCompetitionComponent = (function (_super) {
         core_1.Component({
             selector: 'ao-non-competition',
             templateUrl: 'app/components/schedules/components/non-competition/non-competition.component.html',
-            styleUrls: ['app/components/schedules/schedules.component.css'],
-            directives: [shared_1.SportIconComponent, shared_1.PaginationComponent, shared_1.DateFormatterComponent, common_1.NgClass, schedules_1.SchNavigationComponent]
+            styleUrls: ['app/components/schedules/schedules.component.css']
         }), 
         __metadata('design:paramtypes', [schedules_1.SchedulesService, shared_1.CommonCodesService])
     ], NonCompetitionComponent);

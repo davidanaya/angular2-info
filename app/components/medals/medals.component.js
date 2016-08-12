@@ -16,8 +16,7 @@ var MedalsComponent = (function () {
     }
     MedalsComponent = __decorate([
         core_1.Component({
-            selector: 'ao-medals',
-            templateUrl: 'app/components/medals/medals.component.html'
+            template: '<h3>Medals</h3>'
         }), 
         __metadata('design:paramtypes', [router_1.Router])
     ], MedalsComponent);

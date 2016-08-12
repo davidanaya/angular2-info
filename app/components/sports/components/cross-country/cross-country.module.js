@@ -9,16 +9,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var CcsRes03Component = (function () {
-    function CcsRes03Component() {
+var shared_1 = require('../../../../shared');
+var cross_country_routing_1 = require('./cross-country.routing');
+var cross_country_1 = require('../cross-country');
+var CrossCountryModule = (function () {
+    function CrossCountryModule() {
     }
-    CcsRes03Component = __decorate([
-        core_1.Component({
-            selector: 'ao-ccs-res03',
-            templateUrl: 'app/components/sports/components/cross-country/components/ccs-res03/ccs-res03.component.html'
+    CrossCountryModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                cross_country_routing_1.routing,
+                shared_1.SharedModule.forRoot()
+            ],
+            declarations: [
+                cross_country_1.CrossCountryComponent,
+                cross_country_1.CcsBrk01Component,
+                cross_country_1.CcsRes03Component,
+                cross_country_1.CcsCls01Component
+            ]
         }), 
         __metadata('design:paramtypes', [])
-    ], CcsRes03Component);
-    return CcsRes03Component;
+    ], CrossCountryModule);
+    return CrossCountryModule;
 }());
-exports.CcsRes03Component = CcsRes03Component;
+exports.CrossCountryModule = CrossCountryModule;

@@ -14,8 +14,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
-var router_1 = require('@angular/router');
 var schedules_1 = require('../../../schedules');
 var shared_1 = require('../../../../shared');
 var BySportAndDateComponent = (function (_super) {
@@ -53,15 +51,7 @@ var BySportAndDateComponent = (function (_super) {
         core_1.Component({
             selector: 'ao-by-sport-and-date',
             templateUrl: 'app/components/schedules/components/by-sport-and-date/by-sport-and-date.component.html',
-            styleUrls: ['app/components/schedules/schedules.component.css'],
-            directives: [
-                shared_1.SportIconComponent,
-                shared_1.PaginationComponent,
-                shared_1.DateFormatterComponent,
-                common_1.NgClass,
-                schedules_1.SchNavigationComponent,
-                router_1.ROUTER_DIRECTIVES
-            ]
+            styleUrls: ['app/components/schedules/schedules.component.css']
         }), 
         __metadata('design:paramtypes', [schedules_1.SchedulesService, shared_1.CommonCodesService, shared_1.HelperService])
     ], BySportAndDateComponent);

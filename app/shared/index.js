@@ -14,3 +14,4 @@ __export(require('./model/page-set'));
 __export(require('./model/result-set'));
 __export(require('./model/screen-component-base'));
 __export(require('./constants'));
+__export(require('./shared.module'));

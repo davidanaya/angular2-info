@@ -9,16 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var CcsRes03Component = (function () {
-    function CcsRes03Component() {
+var medals_routing_1 = require('./medals.routing');
+var _1 = require('./');
+var MedalsModule = (function () {
+    function MedalsModule() {
     }
-    CcsRes03Component = __decorate([
-        core_1.Component({
-            selector: 'ao-ccs-res03',
-            templateUrl: 'app/components/sports/components/cross-country/components/ccs-res03/ccs-res03.component.html'
+    MedalsModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                medals_routing_1.routing
+            ],
+            declarations: [
+                _1.MedalsComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
-    ], CcsRes03Component);
-    return CcsRes03Component;
+    ], MedalsModule);
+    return MedalsModule;
 }());
-exports.CcsRes03Component = CcsRes03Component;
+exports.MedalsModule = MedalsModule;

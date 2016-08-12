@@ -9,21 +9,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var cross_country_1 = require('../cross-country');
 var CrossCountryComponent = (function () {
     function CrossCountryComponent() {
     }
     CrossCountryComponent = __decorate([
         core_1.Component({
-            selector: 'ao-cross-country',
-            template: "<router-outlet></router-outlet>",
-            directives: [router_1.ROUTER_DIRECTIVES],
-            precompile: [
-                cross_country_1.CcsRes03Component,
-                cross_country_1.CcsCls01Component,
-                cross_country_1.CcsBrk01Component
-            ]
+            template: "<router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
     ], CrossCountryComponent);

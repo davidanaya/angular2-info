@@ -9,24 +9,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var schedules_1 = require('../schedules');
 var SchedulesComponent = (function () {
     function SchedulesComponent() {
     }
     SchedulesComponent = __decorate([
         core_1.Component({
-            selector: 'ao-schedules',
-            template: "<router-outlet></router-outlet>",
-            directives: [router_1.ROUTER_DIRECTIVES],
-            precompile: [
-                schedules_1.CompetitionScheduleComponent,
-                schedules_1.BySportAndDateComponent,
-                schedules_1.ScheduleByNocComponent,
-                schedules_1.ActivityListComponent,
-                schedules_1.NonCompetitionComponent
-            ],
-            providers: [schedules_1.SchedulesService]
+            template: "<router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
     ], SchedulesComponent);

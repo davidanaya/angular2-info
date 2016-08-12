@@ -1,14 +1,12 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { NgClass } from '@angular/common';
+import { Component } from '@angular/core';
 
-import { SchedulesService, Schedule, SchedulesScreenComponentBase, SchNavigationComponent, Filter } from '../../../schedules';
-import { HelperService, Constants, CommonCodesService, SportIconComponent, ResultSet, PageSet, PaginationComponent, DateFormatterComponent } from '../../../../shared';
+import { SchedulesService, SchedulesScreenComponentBase, Filter } from '../../../schedules';
+import { HelperService, CommonCodesService } from '../../../../shared';
 
 @Component({
   selector: 'ao-competition-schedule',
   templateUrl: 'app/components/schedules/components/competition-schedule/competition-schedule.component.html',
-  styleUrls: ['app/components/schedules/schedules.component.css'],
-  directives: [ SportIconComponent, DateFormatterComponent, NgClass, SchNavigationComponent ]
+  styleUrls: ['app/components/schedules/schedules.component.css']
 })
 export class CompetitionScheduleComponent extends SchedulesScreenComponentBase {
   private filter = new Filter();

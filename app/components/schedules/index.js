@@ -12,3 +12,4 @@ __export(require('./components/schedule-by-noc/schedule-by-noc.component'));
 __export(require('./components/activity-list/activity-list.component'));
 __export(require('./components/non-competition/non-competition.component'));
 __export(require('./schedules.component'));
+__export(require('./schedules.module'));
