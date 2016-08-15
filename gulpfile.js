@@ -12,11 +12,11 @@ var tsProject = ts.createProject('tsconfig.json', {
     typescript: require('typescript')
 });
 
-gulp.task('deploy:all', ['clean', 'bundle', 'resources'], () => {
+gulp.task('deploy:bundle', ['clean', 'bundle', 'resources'], () => {
   gulp.src(['web/**/*']).pipe(gulp.dest('C:/AO/IDS/OIS/docs/web'));
 })
 
-gulp.task('deploy', () => {
+gulp.task('deploy:modules', ['clean', 'modules', 'resources'], () => {
   gulp.src(['web/**/*']).pipe(gulp.dest('C:/AO/IDS/OIS/docs/web'));
 })
 
@@ -27,13 +27,33 @@ gulp.task('clean', () => {
 })
 
 gulp.task('bundle', () => {
-  builder.buildStatic('app/*.js', 'web/bundle.app.js')
-  .then(function() {
-    console.log('Build complete');
-  })
-  .catch(function(err) {
-    console.log('error ' + err);
-  })
+
+  // 3rd party
+  builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.js', { minify: true });
+
+  // commons
+  builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/doisinfhtm.js');
+
+  // modules
+  builder.bundle('[app/components/schedules/**/*.js]', 'web/doisinfhtmsch.js');
+  builder.bundle('[app/components/medals/**/*.js]', 'web/doisinfhtmmdl.js');
+  builder.bundle('[app/components/sports/**/*.js]', 'web/doisinfhtmgl.js');
+
+})
+
+gulp.task('modules', () => {
+
+  // 3rd party
+  builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.js', { minify: true });
+
+  // commons
+  builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/doisinfhtm.js');
+
+  // modules
+  builder.bundle('[app/components/schedules/**/*.js]', 'web/doisinfhtmsch.js');
+  builder.bundle('[app/components/medals/**/*.js]', 'web/doisinfhtmmdl.js');
+  builder.bundle('[app/components/sports/**/*.js]', 'web/doisinfhtmgl.js');
+
 })
 
 gulp.task('resources', () => {
