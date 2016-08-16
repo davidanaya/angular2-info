@@ -12,11 +12,18 @@
     <script src="lib/zone.js"></script>
     <script src="lib/Reflect.js"></script>
     <script src="lib/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
   </head>
   <!-- 2. Display the application -->
   <body>
     <app>Loading...</app>
     <!-- application bundle -->
-    <script src="bundle.app.js"></script>
+    <!--script src="bundle.app.js"></script-->
+    <script src="3rdparty.js"></script>
+    <script src="doisinfhtm.js"></script>
+    <script src="doisinfhtmgl.js"></script>
+    <script src="doisinfhtmmdl.js"></script>
+    <script src="doisinfhtmsch.js"></script>
+    <script>System.import('app/main').catch(function (err) { console.error(err); });</script>
   </body>
 </html>

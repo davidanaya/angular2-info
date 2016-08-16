@@ -27,18 +27,13 @@ gulp.task('clean', () => {
 })
 
 gulp.task('bundle', () => {
-
-  // 3rd party
-  builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.js', { minify: true });
-
-  // commons
-  builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/doisinfhtm.js');
-
-  // modules
-  builder.bundle('[app/components/schedules/**/*.js]', 'web/doisinfhtmsch.js');
-  builder.bundle('[app/components/medals/**/*.js]', 'web/doisinfhtmmdl.js');
-  builder.bundle('[app/components/sports/**/*.js]', 'web/doisinfhtmgl.js');
-
+  builder.bundle('app/*.js', 'web/bundle.app.js')
+  .then(function() {
+    console.log('Build complete');
+  })
+  .catch(function(err) {
+    console.log('error ' + err);
+  })
 })
 
 gulp.task('modules', () => {
@@ -53,7 +48,6 @@ gulp.task('modules', () => {
   builder.bundle('[app/components/schedules/**/*.js]', 'web/doisinfhtmsch.js');
   builder.bundle('[app/components/medals/**/*.js]', 'web/doisinfhtmmdl.js');
   builder.bundle('[app/components/sports/**/*.js]', 'web/doisinfhtmgl.js');
-
 })
 
 gulp.task('resources', () => {
@@ -77,9 +71,7 @@ gulp.task('resources', () => {
   ]).pipe(gulp.dest('web/app'));
 
   gulp.src([
-    'resources/css/**/*.css', 
-    'node_modules/primeui/themes/omega/theme.css',
-    'node_modules/primeui/primeui-ng-all.min.css'])
+    'resources/css/**/*.css'])
     .pipe(concat('bundle.app.css'))
     .pipe(gulp.dest('web'));
 
@@ -89,7 +81,10 @@ gulp.task('resources', () => {
 
   gulp.src([
     'index.html',
-    'favicon.ico'
+    'index_bundle.html',
+    'favicon.ico',
+    'systemjs.config.js',
+    'dist-systemjs.config.js'
   ]).pipe(gulp.dest('web'));
 });
 
