@@ -5,6 +5,10 @@ const routes: Routes = [
     path: '', 
     redirectTo: 'schedules', 
     pathMatch: 'full'
+  },
+  {
+    path: 'medals',
+    loadChildren: 'app/components/medals/medals.module#MedalsModule'
   }
 ];
 

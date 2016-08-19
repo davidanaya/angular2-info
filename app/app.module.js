@@ -13,7 +13,6 @@ var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 // feature modules
 var schedules_1 = require('./components/schedules');
-var medals_1 = require('./components/medals');
 var cross_country_1 = require('./components/sports/components/cross-country');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -24,7 +23,6 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 schedules_1.SchedulesModule,
-                medals_1.MedalsModule,
                 cross_country_1.CrossCountryModule,
                 app_routing_1.routing
             ],

@@ -39,15 +39,15 @@ gulp.task('bundle', () => {
 gulp.task('modules', () => {
 
   // 3rd party
-  builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.js', { minify: true });
+  builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.bundle.js', { minify: true });
 
   // commons
-  builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/doisinfhtm.js');
+  builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/main.bundle.js');
 
   // modules
-  builder.bundle('[app/components/schedules/**/*.js]', 'web/doisinfhtmsch.js');
-  builder.bundle('[app/components/medals/**/*.js]', 'web/doisinfhtmmdl.js');
-  builder.bundle('[app/components/sports/**/*.js]', 'web/doisinfhtmgl.js');
+  builder.bundle('[app/components/schedules/**/*.js]', 'web/schedules.bundle.js');
+  builder.bundle('[app/components/medals/**/*.js]', 'web/medals.bundle.js');
+  builder.bundle('[app/components/sports/**/*.js]', 'web/sports.bundle.js');
 })
 
 gulp.task('resources', () => {
@@ -83,8 +83,7 @@ gulp.task('resources', () => {
     'index.html',
     'index_bundle.html',
     'favicon.ico',
-    'systemjs.config.js',
-    'dist-systemjs.config.js'
+    'systemjs.config.js'
   ]).pipe(gulp.dest('web'));
 });
 

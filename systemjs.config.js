@@ -49,6 +49,9 @@
   ngPackageNames.forEach(packIndex);
 
   var config = {
+    bundles: {
+      'medals.bundle.js': ['app/components/medals/medals.module.js']
+    },
     map: map,
     packages: packages
   };

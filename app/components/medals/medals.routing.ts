@@ -4,7 +4,7 @@ import { MedalsComponent } from './';
 
 export const routing = RouterModule.forChild([
   {
-    path: 'medals',
+    path: '',
     component: MedalsComponent
   }
 ]);
