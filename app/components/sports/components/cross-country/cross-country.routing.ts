@@ -4,7 +4,7 @@ import { CrossCountryComponent, CcsRes03Component, CcsCls01Component, CcsBrk01Co
 
 export const routing = RouterModule.forChild([
   {
-    path: 'results/CCS/:rsc',
+    path: ':rsc',
     component: CrossCountryComponent,
     children: [
       { 

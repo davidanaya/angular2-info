@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'medals',
     loadChildren: 'app/components/medals/medals.module#MedalsModule'
+  },
+  {
+    path: 'results/CCS',
+    loadChildren: 'app/components/sports/components/cross-country/cross-country.module#CrossCountryModule'
   }
 ];
 

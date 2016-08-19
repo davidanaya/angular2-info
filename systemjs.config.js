@@ -50,7 +50,8 @@
 
   var config = {
     bundles: {
-      'medals.bundle.js': ['app/components/medals/medals.module.js']
+      'medals.bundle.js': ['app/components/medals/medals.module.js'],
+      'sports.bundle.js': ['app/components/sports/components/cross-country/cross-country.module.js']
     },
     map: map,
     packages: packages

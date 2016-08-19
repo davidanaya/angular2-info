@@ -3,7 +3,7 @@ var router_1 = require('@angular/router');
 var _1 = require('./');
 exports.routing = router_1.RouterModule.forChild([
     {
-        path: 'results/CCS/:rsc',
+        path: ':rsc',
         component: _1.CrossCountryComponent,
         children: [
             {

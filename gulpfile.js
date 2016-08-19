@@ -37,13 +37,10 @@ gulp.task('bundle', () => {
 })
 
 gulp.task('modules', () => {
-
   // 3rd party
   builder.bundle('app/**/*.js - [app/**/*.js]', 'web/3rdparty.bundle.js', { minify: true });
-
   // commons
   builder.bundle('[app/shared/**/*.js] + [app/*.js]', 'web/main.bundle.js');
-
   // modules
   builder.bundle('[app/components/schedules/**/*.js]', 'web/schedules.bundle.js');
   builder.bundle('[app/components/medals/**/*.js]', 'web/medals.bundle.js');
